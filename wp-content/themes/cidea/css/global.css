@@ -1,0 +1,66 @@
+/*
+* CSS for Header/Footer
+*/
+
+body {
+	font-size  : 16px !important;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+/*
+* HEADER MENU
+*/
+
+header {
+	height          : 3.750em;
+	background-color: #fff;
+	width           : 100%;
+}
+
+header object, header img {
+	height      : 3.750em;
+	padding-left: 2.500em;
+}
+
+nav {
+	float: right;
+}
+
+.menu li {
+	display      : inline-block;
+	padding-right: 2.500em;
+}
+
+.menu li a {
+	text-decoration: none;
+	color          : #2a6f75;
+	line-height    : 3.750em;
+}
+
+.current-menu-item > a {
+	color: #4bc3c4 !important;
+}
+
+/*
+* GENERAL SHARED
+*/
+
+.centered-container {
+	position: absolute;
+	top     : 0;
+	bottom  : 0;
+	left    : 0;
+	right   : 0;
+}
+
+.centered-container:before {
+	content       : '';
+	display       : inline-block;
+	vertical-align: middle;
+	height        : 100%;
+}
+
+.centered {
+	vertical-align: middle;
+	display       : inline-block;
+}

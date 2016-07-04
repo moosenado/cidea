@@ -1,0 +1,14 @@
+/*
+ Theme Name:     Cidea Theme
+ Theme URI:      ''
+ Description:    Theme for Cidea Website
+ Author:         Elliot Grabish (Moosenado Productions)
+ Author URI:     http://www.elliotgrabish.com
+ Template:       Cidea
+ Version:        1.0.0
+*/
+
+@import url("css/global.css"); /* Global */
+@import url("css/home.css"); /* Page */
+@import url("css/howwehelp.css"); /* Page */
+@import url("css/whoweare.css"); /* Page */
