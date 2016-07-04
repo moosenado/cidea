@@ -69,6 +69,32 @@
 	animation: fadeIn 1s .5s forwards;
 }
 
+.logo-c {
+	opacity: 0;
+	animation: fadeIn 1s .6s forwards;
+}
+
+.logo-i {
+	opacity: 0;
+	animation: fadeIn 1s .8s forwards;
+}
+
+.logo-d {
+	opacity: 0;
+	animation: fadeIn 1s 1s forwards;
+}
+
+.logo-e {
+	opacity: 0;
+	animation: fadeIn 1s 1.2s forwards;
+}
+
+.logo-a {
+	opacity: 0;
+	animation: fadeIn 1s 1.4s forwards;
+}
+
+
 @-webkit-keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
