@@ -22,3 +22,10 @@
         	<?php wp_nav_menu(); ?>
         </nav>
 	</header>
+	<div class="cidea-burger">
+		<div class="bar-container">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+	</div>

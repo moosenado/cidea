@@ -3,95 +3,142 @@
 */
 
 .top-banner-container {
-	position         : relative;
-	padding-top      : 31.25%; /*height/widthx100*/
-	background-repeat: repeat-x;
-	background-size  : cover;
-	text-align       : center;
+	position           : relative;
+	padding-top        : 30.000em;
+	background-repeat  : repeat-x;
+	background-position: center;
+	background-size    : cover;
+	text-align         : center;
 }
 
-.top-banner-container svg, .top-banner-container img{
+.top-banner-container svg, .top-banner-container img {
 	height: 40%;
+	width : 60%;
 }
+
+.left-section-container {
+	padding-top        : 30.000em;
+	position           : relative;
+	background-repeat  : repeat-x;
+	background-size    : cover;
+	background-position: center;
+	text-align         : center;
+}
+
+.gradient-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(255,255,255,0);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+/*
+* Animation Classes
+*/
 
 .logo-circle-1 {
 	opacity: 0;
 	animation: fadeIn 1s 2.4s forwards;
+	-webkit-animation: fadeIn 1s 2.4s forwards;
 }
 
 .logo-circle-2 {
 	opacity: 0;
 	animation: fadeIn 1s 2.3s forwards;
+	-webkit-animation: fadeIn 1s 2.3s forwards;
 }
 
 .logo-circle-3 {
 	opacity: 0;
 	animation: fadeIn 1s 2.2s forwards;
+	-webkit-animation: fadeIn 1s 2.2s forwards;
 }
 
 .logo-circle-4 {
 	opacity: 0;
 	animation: fadeIn 1s 2.1s forwards;
+	-webkit-animation: fadeIn 1s 2.1s forwards;
 }
 
 .logo-circle-5 {
 	opacity: 0;
 	animation: fadeIn 1s 2s forwards;
+	-webkit-animation: fadeIn 1s 2s forwards;
 }
 
 .logo-circle-6 {
 	opacity: 0;
 	animation: fadeIn 1s 1.9s forwards;
+	-webkit-animation: fadeIn 1s 1.9s forwards;
 }
 
 .logo-circle-7 {
 	opacity: 0;
 	animation: fadeIn 1s 1.8s forwards;
+	-webkit-animation: fadeIn 1s 1.8s forwards;
 }
 
 .logo-circle-8 {
 	opacity: 0;
 	animation: fadeIn 1s 1.7s forwards;
+	-webkit-animation: fadeIn 1s 1.7s forwards;
 }
 
 .logo-circle-9 {
 	opacity: 0;
 	animation: fadeIn 1s 1.6s forwards;
+	-webkit-animation: fadeIn 1s 1.6s forwards;
 }
 
 .logo-circle-10 {
 	opacity: 0;
 	animation: fadeIn 1s 1.5s forwards;
+	-webkit-animation: fadeIn 1s 1.5s forwards;
 }
 
 .logo-circle-11 {
 	opacity: 0;
 	animation: fadeIn 1s 1.4s forwards;
+	-webkit-animation: fadeIn 1s 1.4s forwards;
 }
 
 .logo-c {
 	opacity: 0;
 	animation: fadeIn 1s .6s forwards;
+	-webkit-animation: fadeIn 1s .6s forwards;
 }
 
 .logo-i {
 	opacity: 0;
 	animation: fadeIn 1.2s .8s forwards;
+	-webkit-animation: fadeIn 1.2s .8s forwards;
 }
 
 .logo-d {
 	opacity: 0;
 	animation: fadeIn 1.4s 1s forwards;
+	-webkit-animation: fadeIn 1.4s 1s forwards;
 }
 
 .logo-e {
 	opacity: 0;
 	animation: fadeIn 1.6s 1.2s forwards;
+	-webkit-animation: fadeIn 1.6s 1.2s forwards;
 }
 
 .logo-a {
 	opacity: 0;
 	animation: fadeIn 1.8s 1.4s forwards;
+	-webkit-animation: fadeIn 1.8s 1.4s forwards;
 }
 
 
@@ -100,17 +147,33 @@
     to   { opacity: 1; }
 }
 
-@-moz-keyframes fadeIn {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-@-o-keyframes fadeIn {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
 @keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media all and ( min-width: 768px )  {
+	.top-banner-container {
+		padding-top: 31.25%; /*height/widthx100*/
+	}
+
+	.left-section-container {
+		padding-top: 62.5%; /*height/widthx100*/
+	}
+
+	.gradient-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(255,255,255,0);
+		background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,1)));
+		background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+		background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+		background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+		background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+	}
 }

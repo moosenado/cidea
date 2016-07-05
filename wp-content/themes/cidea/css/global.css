@@ -12,14 +12,11 @@ body {
 */
 
 header {
-	height          : 3.750em;
-	background-color: #fff;
-	width           : 100%;
+	display: none !important;
 }
 
 header object, header img {
-	height      : 3.750em;
-	padding-left: 2.500em;
+	display: none;
 }
 
 nav {
@@ -39,6 +36,59 @@ nav {
 
 .current-menu-item > a {
 	color: #4bc3c4 !important;
+}
+
+.cidea-burger {
+	width            : 2.500em;
+	height           : 2.500em;
+	background-color : #fff;
+	position         : absolute;
+	top              : 1.250em;
+	left             : 1.250em;
+	z-index          : 200;
+	border-radius    : 100%;
+	opacity          : 0;
+	transform        : scale3d(0,0,0);
+	-webkit-transform: scale3d(0,0,0);
+	animation        : burgerAppear 1s .5s forwards;
+	-webkit-animation: burgerAppear 1s .5s forwards;
+}
+
+.bar-container {
+	opacity          : 0;
+	animation        : fadeIn 1.8s 1s forwards;
+	-webkit-animation: fadeIn 1.8s 1s forwards;
+}
+
+.bar1 {
+	width: 26px;
+	height: 4px;
+	background-color: #4cc2c4;
+	margin: 8px auto 0 auto;
+}
+
+.bar2 {
+	width: 26px;
+	height: 4px;
+	background-color: #4c9399;
+	margin: 6px auto 0 auto;
+}
+
+.bar3 {
+	width: 26px;
+	height: 4px;
+	background-color: #18504f;
+	margin: 6px auto 0 auto;
+}
+
+@-webkit-keyframes burgerAppear {
+    from { opacity: 0; -webkit-transform: scale3d(0,0,0); border-radius: 100%;}
+    to   { opacity: 1; -webkit-transform: scale3d(1,1,0); border-radius: 0; }
+}
+
+@keyframes burgerAppear {
+    from { opacity: 0; transform: scale3d(0,0,0); border-radius: 100%;}
+    to   { opacity: 1; transform: scale3d(1,1,1); border-radius: 0; }
 }
 
 /*
@@ -63,4 +113,31 @@ nav {
 .centered {
 	vertical-align: middle;
 	display       : inline-block;
+	width         : 90%;
+}
+
+.remove-pad-marg {
+	margin : 0 !important;
+	padding: 0 !important;
+}
+
+@media all and ( min-width: 768px )  {
+
+	header {
+		height          : 3.750em;
+		background-color: #fff;
+		width           : 100%;
+		display         : block !important;
+	}
+
+	header object, header img {
+		height      : 3.750em;
+		padding-left: 2.500em;
+		display     : block;
+		float       : left;
+	}
+
+	.cidea-burger {
+		display: none;
+	}
 }
