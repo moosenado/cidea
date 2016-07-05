@@ -267,8 +267,24 @@
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
 	<div class="left-section-container" style="background-image: url(<?php echo get_field('left_section')['url']; ?>);">
 		<div class="gradient-overlay"></div>
+		<div class="centered-container">
+			<div class="centered">
+				<?php echo get_field('how_we_help_point_1'); ?>
+				<?php echo get_field('how_we_help_point_2'); ?>
+				<?php echo get_field('how_we_help_point_3'); ?>
+				<?php echo get_field('how_we_help_point_4'); ?>
+			</div>
+		</div>
 	</div>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
+	<div class="right-section-container">
+		<div class="centered-container">
+			<div class="centered">
+				<?php echo get_field('right_section_title'); ?>
+				<?php echo get_field('right_section_paragraph'); ?>
+			</div>
+		</div>
+	</div>
 </div>
 <?php get_footer(); ?>
