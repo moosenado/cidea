@@ -2,6 +2,11 @@
 * CSS for Header/Footer
 */
 
+@font-face {
+	font-family: Cidea;
+	src: url("../fonts/espacio_novo_medium.ttf") format('truetype');
+}
+
 body {
 	font-size  : 16px !important;
 	font-family: 'Open Sans', sans-serif !important;
@@ -42,7 +47,7 @@ nav {
 	width            : 2.500em;
 	height           : 2.500em;
 	background-color : #fff;
-	position         : absolute;
+	position         : fixed;
 	top              : 1.250em;
 	left             : 1.250em;
 	z-index          : 200;
@@ -119,6 +124,16 @@ nav {
 .remove-pad-marg {
 	margin : 0 !important;
 	padding: 0 !important;
+}
+
+.cidea-button {
+	height          : 40px;
+	width           : 160px;
+	position        : relative;
+	background-color: #fff;
+	border          : 1px solid #89b9b8;
+	margin          : 0 auto;
+	color           : #458287;
 }
 
 @media all and ( min-width: 768px )  {

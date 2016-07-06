@@ -25,6 +25,29 @@
 	text-align         : center;
 }
 
+.right-section-container {
+	padding-top        : 25.000em;
+	position           : relative;
+	text-align         : center;
+}
+
+.bottom-section-container {
+	padding-top        : 30.000em;
+	position           : relative;
+	background-repeat  : repeat-x;
+	background-size    : cover;
+	background-position: center;
+	text-align         : center;
+}
+
+.bottom-section-container img, .bottom-section-container object {
+	width:20px;
+}
+
+.bottom-section-container .cidea-button {
+	margin-top: 120px;
+}
+
 .gradient-overlay {
 	position: absolute;
 	top: 0;
@@ -39,6 +62,44 @@
 	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+.how-we-help-ul {
+	margin: 0;
+	padding: 0;
+	font-family: Cidea;
+	font-size: 34px;
+}
+
+.how-we-help-ul li {
+	text-decoration: none;
+	list-style: none;
+	display: block;
+}
+
+.how-we-help-ul li:nth-child(even) {
+	margin-bottom: 1em;
+}
+
+.how-we-help-ul li:nth-child(even) img, .how-we-help-ul li:nth-child(even) object {
+	width: 15px;
+}
+
+.middle-section-title {
+	font-family: Cidea;
+	font-size: 27px;
+}
+
+.middle-section-paragraph {
+	font-size: 14px;
+	color: #2a6f75;
+}
+
+.bottom-section-title {
+	font-family: Cidea;
+	font-size: 27px;
+	width: 50%;
+	margin: 0 auto;
 }
 
 /*

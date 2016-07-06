@@ -264,27 +264,86 @@
 		</div>
 	</div>
 </div>
+
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
 	<div class="left-section-container" style="background-image: url(<?php echo get_field('left_section')['url']; ?>);">
 		<div class="gradient-overlay"></div>
 		<div class="centered-container">
 			<div class="centered">
-				<?php echo get_field('how_we_help_point_1'); ?>
-				<?php echo get_field('how_we_help_point_2'); ?>
-				<?php echo get_field('how_we_help_point_3'); ?>
-				<?php echo get_field('how_we_help_point_4'); ?>
+				<ul class="how-we-help-ul">
+					<li><?php echo get_field('how_we_help_point_1'); ?></li>
+					<li>
+						<object data="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
+        					<img src="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+        				</object>
+					</li>
+					<li><?php echo get_field('how_we_help_point_2'); ?></li>
+					<li>
+						<object data="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
+        					<img src="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+        				</object>
+					</li>
+					<li><?php echo get_field('how_we_help_point_3'); ?></li>
+					<li>
+						<object data="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
+        					<img src="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+        				</object>
+					</li>
+					<li><?php echo get_field('how_we_help_point_4'); ?></li>
+				</ul>
+				<a href="<?php echo home_url(); ?>/how-we-help">
+					<div class="cidea-button">
+						<div class="centered-container">
+							<div class="centered">
+								How We Help
+							</div>
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
 </div>
+
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
 	<div class="right-section-container">
 		<div class="centered-container">
 			<div class="centered">
-				<?php echo get_field('right_section_title'); ?>
-				<?php echo get_field('right_section_paragraph'); ?>
+				<div class="middle-section-title">
+					<?php echo get_field('right_section_title'); ?>
+				</div>
+				<br />
+				<br />
+				<div class="middle-section-paragraph">
+					<?php echo get_field('right_section_paragraph'); ?>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xlg-12 remove-pad-marg">
+	<div class="bottom-section-container" style="background-image: url(<?php echo get_field('bottom_section_image')['url']; ?>);">
+		<div class="centered-container">
+			<div class="centered">
+				<div class="bottom-section-title">
+					<?php echo get_field('bottom_section_title'); ?>
+				</div>
+				<object data="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
+					<img src="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+				</object>
+				<a href="<?php echo home_url(); ?>/who-we-are">
+					<div class="cidea-button">
+						<div class="centered-container">
+							<div class="centered">
+								Who We Are
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 <?php get_footer(); ?>
