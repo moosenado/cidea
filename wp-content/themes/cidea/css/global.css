@@ -136,6 +136,29 @@ nav {
 	color           : #458287;
 }
 
+/*
+* FOOTER
+*/
+
+.footer-container {
+	position           : relative;
+	padding-top        : 30.000em;
+	background-repeat  : no-repeat;
+	background-position: 48% 50%;
+	background-size    : auto 80%;
+	text-align         : center;
+}
+
+.footer-bg-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	opacity: .8;
+}
+
 @media all and ( min-width: 768px )  {
 
 	header {
@@ -154,5 +177,11 @@ nav {
 
 	.cidea-burger {
 		display: none;
+	}
+
+	.footer-container {
+		padding-top        : 31.25%; /*height/widthx100*/
+		background-position: 95% 50%;
+		background-size    : auto 120%;
 	}
 }

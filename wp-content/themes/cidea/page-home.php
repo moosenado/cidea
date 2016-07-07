@@ -273,20 +273,20 @@
 				<ul class="how-we-help-ul">
 					<li><?php echo get_field('how_we_help_point_1'); ?></li>
 					<li>
-						<object data="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
-        					<img src="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+						<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
+        					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
         				</object>
 					</li>
 					<li><?php echo get_field('how_we_help_point_2'); ?></li>
 					<li>
-						<object data="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
-        					<img src="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+						<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
+        					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
         				</object>
 					</li>
 					<li><?php echo get_field('how_we_help_point_3'); ?></li>
 					<li>
-						<object data="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
-        					<img src="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+						<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
+        					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
         				</object>
 					</li>
 					<li><?php echo get_field('how_we_help_point_4'); ?></li>
@@ -312,8 +312,6 @@
 				<div class="middle-section-title">
 					<?php echo get_field('right_section_title'); ?>
 				</div>
-				<br />
-				<br />
 				<div class="middle-section-paragraph">
 					<?php echo get_field('right_section_paragraph'); ?>
 				</div>
@@ -329,8 +327,8 @@
 				<div class="bottom-section-title">
 					<?php echo get_field('bottom_section_title'); ?>
 				</div>
-				<object data="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
-					<img src="http://localhost/cidea/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
+					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
 				</object>
 				<a href="<?php echo home_url(); ?>/who-we-are">
 					<div class="cidea-button">
