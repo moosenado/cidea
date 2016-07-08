@@ -52,3 +52,9 @@ function global_custom_options()
 }
 }
 ?>
+
+<?php
+
+require_once('classes/email.php');
+
+?>
