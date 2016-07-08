@@ -78,7 +78,7 @@
 }
 
 .how-we-help-ul li:nth-child(even) {
-	margin-bottom: 1em;
+	margin-bottom: 10%;
 }
 
 .how-we-help-ul li:nth-child(even) img, .how-we-help-ul li:nth-child(even) object {
@@ -242,5 +242,17 @@
 	.right-section-container {
 		text-align: left;
 		padding-top: 62.5%;
+	}
+
+	.how-we-help-ul li:nth-child(even) {
+		margin-bottom: 4%;
+	}
+
+	.middle-section-paragraph {
+		margin-left: 20px;
+	}
+
+	.middle-section-title {
+		margin-left: 20px;
 	}
 }

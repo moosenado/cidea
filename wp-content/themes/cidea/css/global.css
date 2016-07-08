@@ -37,6 +37,12 @@ nav {
 	text-decoration: none;
 	color          : #2a6f75;
 	line-height    : 3.750em;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.menu li:hover a {
+	color: #4bc3c4 !important;
 }
 
 .current-menu-item > a {
@@ -130,10 +136,18 @@ nav {
 	height          : 40px;
 	width           : 160px;
 	position        : relative;
-	background-color: #fff;
-	border          : 1px solid #89b9b8;
+	background-color: rgba(255,255,255,.5);
+	border          : 1px solid #c3dfe0;
 	margin          : 0 auto;
 	color           : #458287;
+	font-size       : 14px;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.cidea-button:hover {
+	border: 1px solid #89b9b8;
+	background-color: rgba(255,255,255,0);
 }
 
 /*
@@ -147,6 +161,24 @@ nav {
 	background-position: 48% 50%;
 	background-size    : auto 80%;
 	text-align         : center;
+}
+
+.footer-container object, .footer-container img {
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.footer-container ul {
+	padding: 0;
+}
+
+.footer-container ul li {
+	text-decoration: none;
+	list-style: none;
+	display: block;
+	letter-spacing: 2px;
+	color: #2a6f75;
+	font-size: 14px;
 }
 
 .footer-bg-overlay {
