@@ -156,11 +156,12 @@ nav {
 
 .footer-container {
 	position           : relative;
-	padding-top        : 30.000em;
+	padding-top        : 50.000em;
 	background-repeat  : no-repeat;
-	background-position: 48% 50%;
-	background-size    : auto 80%;
+	background-position: 65% 50%;
+	background-size    : auto 50%;
 	text-align         : center;
+	border: 1px solid black;
 }
 
 .footer-container object, .footer-container img {
