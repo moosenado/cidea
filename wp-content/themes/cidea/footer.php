@@ -56,12 +56,12 @@ $Email->checkEmail();
 						Talk To Us
 					</div>
 
-					<form method="post" action="">
+					<form method="post">
 						<p>
 							<input type="text" name="name" id="Name" placeholder="Name" value="<?php echo $Email->name; ?>" class="text-input" />
 						</p>
 						<p>
-							<input type="text" name="phone" id="Phone" placeholder="Phone" value="<?php echo $Email->phone; ?>" class="text-input"/>
+							<input type="text" name="phonenumber" id="Phone" placeholder="Phone" value="<?php echo $Email->phonenumber; ?>" class="text-input"/>
 						</p>
 						<p>
 							<input type="text" name="email" id="Email" placeholder="Email" value="<?php echo $Email->email; ?>" class="text-input"/>
@@ -81,6 +81,6 @@ $Email->checkEmail();
 	</footer>
 
 </div>
-
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 </body>
 </html>

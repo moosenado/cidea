@@ -29,3 +29,4 @@
 			<div class="bar3"></div>
 		</div>
 	</div>
+	<?php include('menu.php'); ?>

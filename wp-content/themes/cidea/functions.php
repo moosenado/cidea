@@ -10,6 +10,26 @@ if (!function_exists('cc_mime_types'))
 	add_filter('upload_mimes', 'cc_mime_types');
 }
 
+// if (!function_exists('contact_form_process'))
+// {
+// 	function contact_form_process() {
+// 	    echo 'hithere';
+// 	}
+
+// 	add_action("wp_ajax_contact_form", "contact_form_process");
+// 	add_action("wp_ajax_nopriv_contact_form", "contact_form_process");
+// }
+
+// if (!function_exists('enqueue'))
+// {
+// 	function enqueue() {
+// 		wp_enqueue_style( 'style', get_stylesheet_directory_uri() . '/style.css' );
+// 		wp_enqueue_script( 'main-js', get_template_directory_uri() . '/js/main.js', array( 'jquery' ), NULL, false );
+// 	}
+
+// 	add_action( 'wp_enqueue_scripts', 'enqueue' );
+// }
+
 // Global Footer Options
 if (!function_exists('add_global_custom_options'))
 {

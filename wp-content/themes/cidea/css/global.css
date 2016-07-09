@@ -60,12 +60,12 @@ header object, header img {
 }
 
 nav {
-	float: right;
+	float: none;
 }
 
 .menu li {
-	display      : inline-block;
-	padding-right: 2.500em;
+	display      : block;
+	padding-right: 0;
 }
 
 .menu li a {
@@ -193,13 +193,13 @@ nav {
 	position           : relative;
 	padding-top        : 42.000em;
 	background-repeat  : no-repeat;
-	background-position: 65% 50%;
+	background-position: 50% 50%;
 	background-size    : auto 65%;
 	text-align         : center;
 }
 
 .footer-container object, .footer-container img {
-	width: 50%;
+	width: 130px;
 	margin-bottom: 30px;
 }
 
@@ -268,6 +268,27 @@ input[type=text] {
 	padding-left: 10px;
 }
 
+.mobile-menu {
+	position: fixed;
+	top: 15%;
+	bottom: 15%;
+	right: 15%;
+	left: 15%;
+	background-color: rgba(255,255,255,.8);
+	z-index: 0;
+	opacity: 0;
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+}
+
+.mobile-menu-title {
+	font-family: Cidea;
+	font-size: 35px;
+	color: #59c8c9;
+	text-align: center;
+	margin: 40px;
+}
+
 @media all and ( min-width: 768px )  {
 
 	header {
@@ -282,6 +303,15 @@ input[type=text] {
 		padding-left: 2.500em;
 		display     : block;
 		float       : left;
+	}
+
+	nav {
+		float: right;
+	}
+
+	.menu li {
+		display      : inline-block;
+		padding-right: 2.500em;
 	}
 
 	.cidea-burger {
