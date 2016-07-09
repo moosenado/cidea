@@ -1,5 +1,5 @@
 <?php
-
+require_once('classes/email.php');
 // Allow SVG uploads
 if (!function_exists('cc_mime_types'))
 {
@@ -79,11 +79,4 @@ if (!function_exists('add_global_custom_options'))
 	<?php
 	}
 }
-?>
-
-<?php
-
-//Email Class
-require_once('classes/email.php');
-
 ?>

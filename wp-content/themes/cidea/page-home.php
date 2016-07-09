@@ -5,8 +5,6 @@
 <div class="top-banner-container" style="background-image: url(<?php echo get_field('top_banner_image')['url']; ?>);">
 	<div class="centered-container">
 		<div class="centered">
-			<?xml version="1.0" encoding="utf-8"?>
-				<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					 width="864.51px" height="432.777px" viewBox="0 0 864.51 432.777" enable-background="new 0 0 864.51 432.777"
 					 xml:space="preserve">
@@ -263,6 +261,7 @@
 			</svg>
 		</div>
 	</div>
+	<div class="half-circle-cover"></div>
 </div>
 
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
@@ -306,7 +305,9 @@
 </div>
 
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
-	<div class="right-section-container">
+	<div class="right-section-container" style="background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png)">
+		<div class="rightsection-bg-overlay">
+		</div>
 		<div class="centered-container">
 			<div class="centered">
 				<div class="middle-section-title">

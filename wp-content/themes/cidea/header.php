@@ -27,10 +27,16 @@
         </nav>
 	</header>
 	<div class="cidea-burger">
-		<div class="bar-container">
-			<div class="bar1"></div>
-			<div class="bar2"></div>
-			<div class="bar3"></div>
+		<div class="moving-cont">
+			<div class="bar-container">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<div class="close-container">
+				<div class="close1"></div>
+				<div class="close2"></div>
+			</div>
 		</div>
 	</div>
 	<?php include('menu.php'); ?>

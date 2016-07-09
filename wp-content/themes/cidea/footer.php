@@ -81,6 +81,6 @@ $Email->checkEmail();
 	</footer>
 
 </div>
-<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+<script src="<?php echo home_url(); ?>/wp-content/themes/cidea/js/main.js"></script>
 </body>
 </html>

@@ -20,6 +20,9 @@ textarea:focus, input:focus{
     outline: none;
 }
 
+a,a:focus,a:active,button::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="submit"]::-moz-focus-inner,select::-moz-focus-inner,input[type="file"]>input[type="button"]::-moz-focus-inner{border:0;outline:0}a,a:focus,a:active{outline:none}
+
+
 *:focus {
     outline: none;
 }
@@ -109,6 +112,14 @@ nav {
 	-webkit-transform: scale3d(0,0,0);
 	animation        : burgerAppear 1s .5s forwards;
 	-webkit-animation: burgerAppear 1s .5s forwards;
+	overflow: hidden;
+}
+
+.moving-cont {
+	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-transition: 1s all ease-in-out;
+	transition       : 1s all ease-in-out;
 }
 
 .bar-container {
@@ -136,6 +147,38 @@ nav {
 	height: 4px;
 	background-color: #18504f;
 	margin: 6px auto 0 auto;
+}
+
+.close-container {
+	opacity          : 0;
+	animation        : fadeIn 1.8s 1s forwards;
+	-webkit-animation: fadeIn 1.8s 1s forwards;
+}
+
+.close1 {
+	position: absolute;
+	top: 42%;
+	left: 150%;
+	right: 0;
+	bottom: 0;
+	width: 32px;
+	height: 4px;
+	background-color: #4cc2c4;
+	-webkit-transform: rotate(43deg);
+	transform: rotate(43deg);
+}
+
+.close2 {
+	position: absolute;
+	top: 42%;
+	left: 150%;
+	right: 0;
+	bottom: 0;
+	width: 32px;
+	height: 4px;
+	background-color: #4c9399;
+	-webkit-transform: rotate(43deg);
+	transform: rotate(-43deg);
 }
 
 @-webkit-keyframes burgerAppear {
@@ -278,7 +321,7 @@ nav {
 
 input[type=text] {
 	width: 250px;
-	height: 40px;
+	height: 34px;
 	border: 1px solid #b5ccce;
 	padding-left: 10px;
 }

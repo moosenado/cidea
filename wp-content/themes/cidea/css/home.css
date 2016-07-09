@@ -4,16 +4,28 @@
 
 .top-banner-container {
 	position           : relative;
-	padding-top        : 30.000em;
+	padding-top        : 150%;
 	background-repeat  : repeat-x;
 	background-position: center;
 	background-size    : cover;
 	text-align         : center;
+	overflow           : hidden;
 }
 
 .top-banner-container svg, .top-banner-container img {
 	height: 40%;
-	width : 60%;
+	width : 65%;
+}
+
+.half-circle-cover {
+    content: '';
+    position: absolute;
+    bottom: 7%;
+    left: -48%;
+    width: 200%;
+    height: 150%;
+    border-radius: 100%;
+    box-shadow: 0px 300px 0px 300px #ffffff;
 }
 
 .left-section-container {
@@ -29,6 +41,16 @@
 	padding-top        : 25.000em;
 	position           : relative;
 	text-align         : center;
+}
+
+.rightsection-bg-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	opacity: .9;
 }
 
 .bottom-section-container {
@@ -218,10 +240,15 @@
 @media all and ( min-width: 768px )  {
 	.top-banner-container {
 		padding-top: 31.25%; /*height/widthx100*/
+		overflow: visible;
 	}
 
 	.left-section-container {
 		padding-top: 62.5%; /*height/widthx100*/
+	}
+
+	.half-circle-cover {
+	    display: none;
 	}
 
 	.gradient-overlay {
@@ -243,6 +270,9 @@
 	.right-section-container {
 		text-align: left;
 		padding-top: 62.5%;
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: 300px -40%;
 	}
 
 	.how-we-help-ul li:nth-child(even) {
