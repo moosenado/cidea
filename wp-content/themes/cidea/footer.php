@@ -25,43 +25,55 @@ $Email->checkEmail();
         				<li><?php echo get_option('email'); ?></li>
         			</ul>
         		</div>
+        		<div class="social-container">
+        			<ul>
+        				<li>
+        					<a href="<?php echo get_option('facebook');?>" class="social-svg">
+	        					<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/facebook_icon.svg" type="image/svg+xml">
+	        						<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/facebook_icon.png" />
+	        					</object>
+        					</a>
+        				</li>
+        				<li>
+        					<a href="<?php echo get_option('twitter');?>" class="social-svg">
+	        					<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/twitter_icon.svg" type="image/svg+xml">
+	        						<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/twitter_icon.png" />
+	        					</object>
+        					</a>
+        				</li>
+        				<li>
+        					<a href="<?php echo get_option('instagram');?>" class="social-svg">
+	        					<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/instagram_logo.svg" type="image/svg+xml">
+	        						<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/instagram_logo.png" />
+	        					</object>
+        					</a>
+        				</li>
+        			</ul>
+        		</div>
 				<div class="form-container">
 
 					<div class="form-title">
 						Talk To Us
 					</div>
 
-					<div id="formStyle">
+					<form method="post" action="">
+						<p>
+							<input type="text" name="name" id="Name" placeholder="Name" value="<?php echo $Email->name; ?>" class="text-input" />
+						</p>
+						<p>
+							<input type="text" name="phone" id="Phone" placeholder="Phone" value="<?php echo $Email->phone; ?>" class="text-input"/>
+						</p>
+						<p>
+							<input type="text" name="email" id="Email" placeholder="Email" value="<?php echo $Email->email; ?>" class="text-input"/>
+						</p>
+						<p>
+							<input type="submit" name="submit" id="button" value="Submit" class="submit-btn"/>
+						</p>
+					</form>
 
-						<span><p><?php echo $Email->err . '<br />'; ?></p></span>
-						<span><p><?php foreach($Email->validateArray as $key => $value){ echo $value . '<br />' ; } ?></p></span>
-						<span id="formoutput"><p><?php echo $Email->formOutput; ?></p></span>
-
-						<form method="post" action="">
-
-							<p>
-								<label class="lbl">Name</label>
-								<br />
-								<input type="text" name="name" id="Name" value="<?php echo $name; ?>" class="textinput" />
-							</p>
-							<p>
-								<label class="lbl">Email</label>
-								<br />
-								<input type="text" name="email" id="Email" value="<?php echo $email; ?>" class="textinput"/>
-							</p>
-							<p>
-								<label class="lbl">Message</label>
-								<br />
-								<textarea name="message" id="message" rows="8" class="textinput"><?php echo $Email->message; ?></textarea>
-							</p>
-
-							<p>
-								<input type="submit" name="submit" id="button" value="Submit" class="btn"/>
-								<input type="reset" name="reset" id="button" value="Reset" class="btn"/>
-							</p>
-						</form>
-
-					</div>
+					<span><p><?php echo $Email->err . '<br />'; ?></p></span>
+					<span><p><?php foreach($Email->validateArray as $key => $value){ echo $value . '<br />' ; } ?></p></span>
+					<span id="formoutput"><p><?php echo $Email->formOutput; ?></p></span>
 					
 				</div>
 			</div>

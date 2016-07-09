@@ -42,9 +42,18 @@ if (!function_exists('add_global_custom_options'))
 	            <p><strong>Email:</strong><br />
 	                <input type="text" name="email" size="45" value="<?php echo get_option('email'); ?>" />
 	            </p>
+	          	<p><strong>Facebook URL:</strong><br />
+	                <input type="text" name="facebook" size="45" value="<?php echo get_option('facebook'); ?>" />
+	            </p>
+	           	<p><strong>Twitter URL:</strong><br />
+	                <input type="text" name="twitter" size="45" value="<?php echo get_option('twitter'); ?>" />
+	            </p>
+	           	<p><strong>Instagram URL:</strong><br />
+	                <input type="text" name="instagram" size="45" value="<?php echo get_option('instagram'); ?>" />
+	            </p>
 	            <p><input type="submit" name="Submit" value="Save" /></p>
 	            <input type="hidden" name="action" value="update" />
-	            <input type="hidden" name="page_options" value="address,city,postalcode,phonenumber,email" />
+	            <input type="hidden" name="page_options" value="address,city,postalcode,phonenumber,email,facebook,twitter,instagram" />
 	        </form>
 	    </div>
 	<?php
