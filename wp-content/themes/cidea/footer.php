@@ -8,7 +8,7 @@ $Email->checkEmail();
 		<div class="footer-bg-overlay">
 		</div>
 		<div class="centered-container">
-			<div class="centered">
+			<div class="centered footer-content-container">
 				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-transparent-final.svg" type="image/svg+xml">
         			<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-transparent-final.png" />
         		</object>
@@ -28,21 +28,21 @@ $Email->checkEmail();
         		<div class="social-container">
         			<ul>
         				<li>
-        					<a href="<?php echo get_option('facebook');?>" class="social-svg">
+        					<a href="<?php echo get_option('facebook');?>" class="svg">
 	        					<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/facebook_icon.svg" type="image/svg+xml">
 	        						<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/facebook_icon.png" />
 	        					</object>
         					</a>
         				</li>
         				<li>
-        					<a href="<?php echo get_option('twitter');?>" class="social-svg">
+        					<a href="<?php echo get_option('twitter');?>" class="svg">
 	        					<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/twitter_icon.svg" type="image/svg+xml">
 	        						<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/twitter_icon.png" />
 	        					</object>
         					</a>
         				</li>
         				<li>
-        					<a href="<?php echo get_option('instagram');?>" class="social-svg">
+        					<a href="<?php echo get_option('instagram');?>" class="svg">
 	        					<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/instagram_logo.svg" type="image/svg+xml">
 	        						<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/instagram_logo.png" />
 	        					</object>

@@ -88,12 +88,13 @@
 .middle-section-title {
 	font-family: Cidea;
 	font-size: 27px;
-	margin-bottom: 30px;
+	margin: 0 auto 30px auto;
 }
 
 .middle-section-paragraph {
 	font-size: 14px;
 	color: #2a6f75;
+	margin: 0 auto;
 }
 
 .bottom-section-title {
@@ -249,10 +250,10 @@
 	}
 
 	.middle-section-paragraph {
-		margin-left: 20px;
+		width: 75%;
 	}
 
 	.middle-section-title {
-		margin-left: 20px;
+		width: 75%;
 	}
 }

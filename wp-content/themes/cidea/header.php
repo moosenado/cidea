@@ -15,9 +15,13 @@
 
 <body>
 	<header>
-		<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-transparent-final.svg" type="image/svg+xml">
-        	<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-transparent-final.png" />
-        </object>
+		<div class="header-svg-container">
+			<a href="<?php echo home_url(); ?>" class="svg">
+				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-transparent-final.svg" type="image/svg+xml">
+		        	<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-transparent-final.png" />
+		        </object>
+		    </a>
+	    </div>
         <nav>
         	<?php wp_nav_menu(); ?>
         </nav>
