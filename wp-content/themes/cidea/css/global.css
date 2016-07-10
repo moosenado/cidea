@@ -119,8 +119,8 @@ nav {
 	opacity          : 0;
 	transform        : scale3d(0,0,0);
 	-webkit-transform: scale3d(0,0,0);
-	animation        : burgerAppear 1s .5s forwards;
-	-webkit-animation: burgerAppear 1s .5s forwards;
+	animation        : burgerAppear 1s 1s forwards;
+	-webkit-animation: burgerAppear 1s 1s forwards;
 	overflow: hidden;
 }
 
