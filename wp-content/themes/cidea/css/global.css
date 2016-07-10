@@ -521,6 +521,6 @@ input[type=text] {
 }
 
 .lowerOpacitySlow {
-	animation        : lowerOpacitySlow 3s forwards;
-	-webkit-animation: lowerOpacitySlow 3s forwards;
+	animation        : lowerOpacitySlow 4s forwards;
+	-webkit-animation: lowerOpacitySlow 4s forwards;
 }
