@@ -26,6 +26,7 @@
         	<?php wp_nav_menu(); ?>
         </nav>
 	</header>
+	<div class="header-fake"></div>
 	<div class="cidea-burger">
 		<div class="moving-cont">
 			<div class="bar-container">

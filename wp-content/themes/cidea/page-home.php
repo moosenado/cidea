@@ -270,28 +270,28 @@
 		<div class="centered-container">
 			<div class="centered">
 				<ul class="how-we-help-ul">
-					<li><?php echo get_field('how_we_help_point_1'); ?></li>
-					<li>
+					<li class="scrollTime" data-animation="slideUpAnimation" data-timeout="1000"><?php echo get_field('how_we_help_point_1'); ?></li>
+					<li class="scrollTime" data-animation="rotateInAnimation" data-timeout="1500">
 						<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
         					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
         				</object>
 					</li>
-					<li><?php echo get_field('how_we_help_point_2'); ?></li>
-					<li>
+					<li class="scrollTime" data-animation="slideUpAnimation" data-timeout="1400"><?php echo get_field('how_we_help_point_2'); ?></li>
+					<li class="scrollTime" data-animation="rotateInAnimation" data-timeout="1900">
 						<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
         					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
         				</object>
 					</li>
-					<li><?php echo get_field('how_we_help_point_3'); ?></li>
-					<li>
+					<li class="scrollTime" data-animation="slideUpAnimation" data-timeout="1800"><?php echo get_field('how_we_help_point_3'); ?></li>
+					<li class="scrollTime" data-animation="rotateInAnimation" data-timeout="2300">
 						<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
         					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
         				</object>
 					</li>
-					<li><?php echo get_field('how_we_help_point_4'); ?></li>
+					<li class="scrollTime" data-animation="slideUpAnimation" data-timeout="2200"><?php echo get_field('how_we_help_point_4'); ?></li>
 				</ul>
 				<a href="<?php echo home_url(); ?>/how-we-help">
-					<div class="cidea-button">
+					<div class="cidea-button scrollTime" data-animation="slideUpAnimation" data-timeout="1000">
 						<div class="centered-container">
 							<div class="centered">
 								How We Help
@@ -310,10 +310,10 @@
 		</div>
 		<div class="centered-container">
 			<div class="centered">
-				<div class="middle-section-title">
+				<div class="middle-section-title scrollTime" data-animation="slideUpAnimation" data-timeout="1000">
 					<?php echo get_field('right_section_title'); ?>
 				</div>
-				<div class="middle-section-paragraph">
+				<div class="middle-section-paragraph scrollTime" data-animation="slideRightAnimation" data-timeout="1400">
 					<?php echo get_field('right_section_paragraph'); ?>
 				</div>
 			</div>
@@ -325,14 +325,14 @@
 	<div class="bottom-section-container" style="background-image: url(<?php echo get_field('bottom_section_image')['url']; ?>);">
 		<div class="centered-container">
 			<div class="centered">
-				<div class="bottom-section-title">
+				<div class="bottom-section-title scrollTime" data-animation="slideUpAnimation" data-timeout="1000">
 					<?php echo get_field('bottom_section_title'); ?>
 				</div>
-				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml">
-					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-swirl-final.svg" type="image/svg+xml" class="scrollTime" data-animation="rotateInAnimation" data-timeout="1500">
+					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" class="scrollTime" data-animation="rotateInAnimation" data-timeout="1500"/>
 				</object>
 				<a href="<?php echo home_url(); ?>/who-we-are">
-					<div class="cidea-button">
+					<div class="cidea-button scrollTime" data-animation="slideUpAnimation" data-timeout="1000">
 						<div class="centered-container">
 							<div class="centered">
 								Who We Are
