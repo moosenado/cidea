@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 var menu_open = false,
     winWidth = window.innerWidth,
-    winPadding  = window.innerHeight * 1.1;
+    winPadding  = window.innerHeight * 1;
 
 var openMenu = function() {
     if (!menu_open)
@@ -38,8 +38,6 @@ var openMenu = function() {
 var scrollTime = function() {
 
     var scrolled = $(window).scrollTop();
-
-    console.log(scrolled);
 
     $(".scrollTime:not(.animated)").each(function () {
 

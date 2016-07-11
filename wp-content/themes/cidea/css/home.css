@@ -13,7 +13,7 @@
 }
 
 .top-banner-container svg, .top-banner-container img {
-	height: 40%;
+	height: 45%;
 	width : 65%;
 }
 
@@ -63,7 +63,7 @@
 	position           : relative;
 	background-repeat  : repeat-x;
 	background-size    : cover;
-	background-position: center;
+	background-position: bottom;
 	text-align         : center;
 }
 
@@ -209,36 +209,6 @@
 	-webkit-animation: fadeIn 1s 1.4s forwards;
 }
 
-.logo-c {
-	opacity: 0;
-	animation: fadeIn 1s .6s forwards;
-	-webkit-animation: fadeIn 1s .6s forwards;
-}
-
-.logo-i {
-	opacity: 0;
-	animation: fadeIn 1.2s .8s forwards;
-	-webkit-animation: fadeIn 1.2s .8s forwards;
-}
-
-.logo-d {
-	opacity: 0;
-	animation: fadeIn 1.4s 1s forwards;
-	-webkit-animation: fadeIn 1.4s 1s forwards;
-}
-
-.logo-e {
-	opacity: 0;
-	animation: fadeIn 1.6s 1.2s forwards;
-	-webkit-animation: fadeIn 1.6s 1.2s forwards;
-}
-
-.logo-a {
-	opacity: 0;
-	animation: fadeIn 1.8s 1.4s forwards;
-	-webkit-animation: fadeIn 1.8s 1.4s forwards;
-}
-
 @-webkit-keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -312,10 +282,62 @@
 	.middle-section-title {
 		width: 75%;
 	}
+
+	.logo-c {
+		opacity: 0;
+		animation: fadeIn 1s .6s forwards;
+		-webkit-animation: fadeIn 1s .6s forwards;
+	}
+
+	.logo-i {
+		opacity: 0;
+		animation: fadeIn 1.2s .8s forwards;
+		-webkit-animation: fadeIn 1.2s .8s forwards;
+	}
+
+	.logo-d {
+		opacity: 0;
+		animation: fadeIn 1.4s 1s forwards;
+		-webkit-animation: fadeIn 1.4s 1s forwards;
+	}
+
+	.logo-e {
+		opacity: 0;
+		animation: fadeIn 1.6s 1.2s forwards;
+		-webkit-animation: fadeIn 1.6s 1.2s forwards;
+	}
+
+	.logo-a {
+		opacity: 0;
+		animation: fadeIn 1.8s 1.4s forwards;
+		-webkit-animation: fadeIn 1.8s 1.4s forwards;
+	}
 }
 
 @media all and ( min-width: 1024px )  {
 	.top-banner-container {
 		padding-top: 31.25%; /*height/widthx100*/
+	}
+
+	.bottom-section-container {
+		padding-top: 31.25%; /*height/widthx100*/
+	}
+}
+
+@media all and ( min-width: 1600px )  {
+	.how-we-help-ul {
+		font-size: 42px;
+	}
+
+	.middle-section-title {
+		font-size: 36px;
+	}
+
+	.middle-section-paragraph {
+		font-size: 20px;
+	}
+
+	.bottom-section-title {
+		font-size: 44px;
 	}
 }
