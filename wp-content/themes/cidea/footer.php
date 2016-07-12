@@ -9,7 +9,7 @@ $Email->checkEmail();
 		</div>
 		<div class="centered-container">
 			<div class="centered footer-content-container">
-				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-transparent-final.svg" type="image/svg+xml">
+				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-full-logo-transparent.svg" type="image/svg+xml">
         			<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-transparent-final.png" />
         		</object>
         		<div class="address-container">
