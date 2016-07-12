@@ -1,11 +1,6 @@
-<?php /* Template Name: Cidea - Home */ ?>
-
-<?php get_header(); ?>
-
-<div class="top-banner-container" style="background-image: url(<?php echo get_field('top_banner_image')['url']; ?>);">
-	<div class="centered-container">
-		<div class="centered">
-
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="864.51px" height="432.776px" viewBox="0 0 864.51 432.776" enable-background="new 0 0 864.51 432.776"
 	 xml:space="preserve">
@@ -69,7 +64,7 @@
 				c-7.07,4.25-12.99,12.35-12.96,23.52c0.04,16.16,12.71,26.98,26.4,26.88C176.51,114.426,187.97,103.926,189.141,90.517
 				 M186.26,157.477c0.16-3.63-2.44-5.66-5.52-5.28c-3.36,0.42-4.66,2.65-4.56,5.28C176.42,163.727,185.98,163.886,186.26,157.477
 				 M176.9,144.756c3.99,0.05,4.32-7.81-0.96-6.24C172.5,139.546,173.621,144.716,176.9,144.756"/>
-			<path clip-path="url(#SVGID_6_)" class="logo-a" fill="#4BC2C4" d="M814.34,360.276v10.32c-20.009,1.59-31.75-1.91-33.12-18.96
+			<path clip-path="url(#SVGID_6_)" fill="#4BC2C4" d="M814.34,360.276v10.32c-20.009,1.59-31.75-1.91-33.12-18.96
 				c-16.109,18.31-50.7,24.34-84.719,20.16c-31.661-3.891-54-18.29-54.96-52.8c-1-36,20.16-51.811,51.839-55.921
 				c33.38-4.34,70.84,0.011,87.84,16.801c3-31.87-10.519-48.95-34.319-55.92c-17.239-5.051-43.25-4.25-59.279,1.68
 				c-4.771,1.76-12.191,4.63-13.681,8.64c-1.819,4.92,0.369,13.101-0.48,18.48h-11.52c-0.431-13.5-0.881-23.561,6.479-29.28
@@ -80,7 +75,7 @@
 			<path clip-path="url(#SVGID_6_)" fill="none" d="M775.7,291.156c5.109,8.95,6.141,20.2,5.279,30.721
 				c-2.688,32.97-33.429,41.159-67.92,40.801c-22.069-0.231-43.819-5.312-53.28-19.201c-10.14-14.89-8.309-44.54,2.642-56.4
 				c10.648-11.54,29.75-14.05,52.08-14.88C740.399,271.236,767.011,275.936,775.7,291.156"/>
-			<path clip-path="url(#SVGID_6_)" fill="#4BC2C4" class="logo-e" d="M535.22,210.276c59.481-2.81,88.34,28.521,87.84,86.16H473.78
+			<path clip-path="url(#SVGID_6_)" fill="#4BC2C4" d="M535.22,210.276c59.481-2.81,88.34,28.521,87.84,86.16H473.78
 				c1.069,32.941,14.81,54.95,42.961,62.64c21.409,5.851,49.949,3.302,66.96-5.52c4.829-2.5,12.809-7.24,14.159-12.24
 				c1.119-4.149-0.351-10.21,0.239-14.399h11.521c0.969,12.08-0.511,19.899-5.761,25.439c-7.561,7.98-20.271,13.92-32.641,17.04
 				c-13.819,3.481-30.42,4.16-45.359,2.16c-28.131-3.76-47.989-18.021-57.119-41.76c-9.95-25.88-8.191-60.761,3.358-82.8
@@ -88,7 +83,7 @@
 				C496.68,222.457,476.05,246.806,474.02,286.356"/>
 			<path clip-path="url(#SVGID_6_)" fill="none" d="M611.54,286.356H474.02c2.031-39.55,22.661-63.899,62.161-66
 				C584.061,217.816,609.069,242.726,611.54,286.356"/>
-			<path clip-path="url(#SVGID_6_)" class="logo-d" fill="#4BC2C4" d="M441.86,360.036v10.32c-8.64-0.37-17.03,1.09-22.56-1.68
+			<path clip-path="url(#SVGID_6_)" fill="#4BC2C4" d="M441.86,360.036v10.32c-8.64-0.37-17.03,1.09-22.56-1.68
 				c-8.96-4.49-11.44-13.74-10.32-28.08c-8.2,12.8-20.53,23.03-37.44,28.08c-16.74,5-40.32,5.609-58.8,1.2
 				c-35.03-8.351-52.8-35.62-52.8-78.721c0-42.399,19.95-69.279,54-77.52c18.34-4.44,42-3.8,58.32,1.68
 				c16.64,5.59,28.31,15.271,36.72,29.04v-66.24c0-7.7-0.74-15.48,0-22.08c0.89-7.94,8.37-15.31,15.84-16.08
@@ -99,129 +94,41 @@
 			<path clip-path="url(#SVGID_6_)" fill="none" d="M408.74,285.396c2.3,47.24-17.99,74.96-61.92,77.04
 				c-47.75,2.26-73.7-19.66-75.36-64.08c-1.51-40.29,14.31-67.22,46.56-75.12c5.01-1.229,10.47-1.83,15.6-2.16
 				c22.92-1.479,42.46,4.261,54.48,15.36C399.69,247.136,407.69,263.856,408.74,285.396"/>
-			<path clip-path="url(#SVGID_6_)" fill="#307278" class="logo-circle-4" d="M317.54,108.516c1.07,11.48-7.5,20.43-17.76,20.64
+			<path clip-path="url(#SVGID_6_)" fill="#307278" d="M317.54,108.516c1.07,11.48-7.5,20.43-17.76,20.64
 				c-19.85,0.41-24.17-26.86-9.12-35.28c1.89-1.06,4.29-1.62,6.96-1.92C308.54,90.726,316.65,98.966,317.54,108.516"/>
-			<path clip-path="url(#SVGID_6_)" fill="#17504E" class="logo-circle-5" d="M306.74,149.796c1.41,10.24-6.1,17.14-14.16,17.04
+			<path clip-path="url(#SVGID_6_)" fill="#17504E" d="M306.74,149.796c1.41,10.24-6.1,17.14-14.16,17.04
 				c-7.83-0.1-13.41-6.63-13.92-13.2c-0.68-8.77,5.08-14.59,12.24-15.6C299.07,136.886,305.72,142.386,306.74,149.796"/>
-			<path clip-path="url(#SVGID_6_)" fill="#4B9399" class="logo-circle-3" d="M291.14,48.516c2.42,3.27,4.93,8.39,4.32,15.36
+			<path clip-path="url(#SVGID_6_)" fill="#4B9399" d="M291.14,48.516c2.42,3.27,4.93,8.39,4.32,15.36
 				c-0.94,10.83-9.82,19.62-21.12,19.68c-12.87,0.07-22.38-10.94-21.12-24.48c0.94-10.09,8.91-17.86,18.72-18.96
 				C281.33,39.066,287.25,43.256,291.14,48.516"/>
-			<path clip-path="url(#SVGID_6_)" fill="#0D3A39" class="logo-circle-6" d="M268.82,165.156c8.68-1.48,15.48,4.51,14.64,13.68
+			<path clip-path="url(#SVGID_6_)" fill="#0D3A39" d="M268.82,165.156c8.68-1.48,15.48,4.51,14.64,13.68
 				c-0.61,6.58-8.18,14-17.04,10.32c-4.06-1.69-6.99-6.14-7.44-10.08C258.13,171.606,262.99,166.156,268.82,165.156"/>
-			<path clip-path="url(#SVGID_6_)" fill="#004244" class="logo-circle-7" d="M240.26,179.556c9.12-1.67,15.09,9.19,9.12,16.32
+			<path clip-path="url(#SVGID_6_)" fill="#004244" d="M240.26,179.556c9.12-1.67,15.09,9.19,9.12,16.32
 				c-6.35,7.59-16.79,1.27-17.04-6.24C232.17,184.556,235.24,180.476,240.26,179.556"/>
-			<path clip-path="url(#SVGID_6_)" fill="#54A7B7" class="logo-circle-2" d="M233.06,33.396c4.56,3.94,9.33,11.67,8.4,22.32
+			<path clip-path="url(#SVGID_6_)" fill="#54A7B7" d="M233.06,33.396c4.56,3.94,9.33,11.67,8.4,22.32
 				c-1.75,20.11-26.21,28.96-40.56,16.56c-5.82-5.03-9.24-13.26-8.64-21.6c0.76-10.59,7.07-17.67,14.4-21.12
 				c1.88-0.88,4.11-1.54,7.68-1.92C222.47,26.766,229,29.886,233.06,33.396"/>
-			<path clip-path="url(#SVGID_6_)" fill="#4BC2C4" class="logo-i" d="M233.06,213.156v157.2h-11.52V213.876c-0.01-0.41,0.18-0.62,0.48-0.72H233.06
+			<path clip-path="url(#SVGID_6_)" fill="#4BC2C4" d="M233.06,213.156v157.2h-11.52V213.876c-0.01-0.41,0.18-0.62,0.48-0.72H233.06
 				z"/>
-			<path clip-path="url(#SVGID_6_)" fill="#004350" class="logo-circle-8" d="M211.94,178.836c10.99-2.29,14.18,14.16,4.32,16.8
+			<path clip-path="url(#SVGID_6_)" fill="#004350" d="M211.94,178.836c10.99-2.29,14.18,14.16,4.32,16.8
 				C205.23,198.586,200.73,181.176,211.94,178.836"/>
-			<path clip-path="url(#SVGID_6_)" fill="#091A3A" class="logo-circle-9" d="M194.42,168.756c3.88-0.5,7.02,2.12,6.96,6.24c-0.13,8.23-12.37,8.08-12.48,0
+			<path clip-path="url(#SVGID_6_)" fill="#091A3A" d="M194.42,168.756c3.88-0.5,7.02,2.12,6.96,6.24c-0.13,8.23-12.37,8.08-12.48,0
 				C188.86,171.826,190.5,169.256,194.42,168.756"/>
-			<path clip-path="url(#SVGID_6_)" fill="#4BC2C4" class="logo-c" d="M191.06,230.917c5.88,6.949,6.14,18.229,5.52,32.399H185.3
+			<path clip-path="url(#SVGID_6_)" fill="#4BC2C4" d="M191.06,230.917c5.88,6.949,6.14,18.229,5.52,32.399H185.3
 				c-0.68-8.06,1.3-16.1-0.96-21.84c-2.34-5.95-8.84-9.71-14.4-12.479c-16.89-8.431-47.54-11.25-68.16-3.841
 				c-25,8.98-40.56,32.391-40.56,66.96c0,34.029,15.84,57.91,41.04,66.48c12.07,4.1,32.54,5.41,48,2.4
 				c7.29-1.421,13.85-3.602,20.16-6.721c5.52-2.729,11.98-6.14,14.16-12.479c2.05-5.95-0.05-14.311,0.72-21.84h11.28
 				c-0.38,7.89,0.52,12.979,0,19.68c-1.12,14.53-14.95,21.64-25.92,26.16c-12.65,5.21-29.59,7.67-44.64,6.96
 				c-32.95-1.561-54.32-14.521-66.48-37.44c-6.19-11.66-9.67-26.189-9.84-42.24c-0.17-16.149,3.1-30.869,9.12-42.96
 				c11.38-22.85,32.49-38.05,65.28-39.599c14.02-0.661,27.72,1.009,39.12,4.56C173.82,218.376,184.91,223.645,191.06,230.917"/>
-			<path clip-path="url(#SVGID_6_)" fill="#4BC2C4" class="logo-circle-1" d="M182.18,68.916c3.98,4.44,7.81,11.87,6.96,21.6
+			<path clip-path="url(#SVGID_6_)" fill="#4BC2C4" d="M182.18,68.916c3.98,4.44,7.81,11.87,6.96,21.6
 				c-1.17,13.41-12.63,23.91-25.92,24c-13.69,0.1-26.36-10.72-26.4-26.88c-0.03-11.17,5.89-19.27,12.96-23.52
 				c3.24-1.95,6.62-3.04,11.76-3.36C170.28,60.206,177.95,64.206,182.18,68.916"/>
-			<path clip-path="url(#SVGID_6_)" fill="#0A1B3B" class="logo-circle-10" d="M180.74,152.196c3.08-0.38,5.68,1.65,5.52,5.28c-0.28,6.41-9.84,6.25-10.08,0
+			<path clip-path="url(#SVGID_6_)" fill="#0A1B3B" d="M180.74,152.196c3.08-0.38,5.68,1.65,5.52,5.28c-0.28,6.41-9.84,6.25-10.08,0
 				C176.08,154.846,177.38,152.616,180.74,152.196"/>
-			<path clip-path="url(#SVGID_6_)" class="logo-circle-11" d="M175.94,138.516c5.28-1.57,4.95,6.29,0.96,6.24
+			<path clip-path="url(#SVGID_6_)" d="M175.94,138.516c5.28-1.57,4.95,6.29,0.96,6.24
 				C173.621,144.716,172.5,139.546,175.94,138.516"/>
 		</g>
 	</g>
 </g>
 </svg>
-
-		</div>
-	</div>
-	<div class="half-circle-cover"></div>
-</div>
-
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
-	<div class="left-section-container" style="background-image: url(<?php echo get_field('left_section')['url']; ?>);">
-		<div class="gradient-overlay"></div>
-		<div class="centered-container">
-			<div class="centered">
-				<ul class="how-we-help-ul">
-					<li class="scrollTime" data-animation="slideUpAnimation"><?php echo get_field('how_we_help_point_1'); ?></li>
-					<li class="scrollTime" data-animation="rotateInAnimation" data-timeout="500">
-						<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
-        					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
-        				</object>
-					</li>
-					<li class="scrollTime" data-animation="slideUpAnimation" data-timeout="400"><?php echo get_field('how_we_help_point_2'); ?></li>
-					<li class="scrollTime" data-animation="rotateInAnimation" data-timeout="900">
-						<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
-        					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
-        				</object>
-					</li>
-					<li class="scrollTime" data-animation="slideUpAnimation" data-timeout="800"><?php echo get_field('how_we_help_point_3'); ?></li>
-					<li class="scrollTime" data-animation="rotateInAnimation" data-timeout="1300">
-						<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
-        					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
-        				</object>
-					</li>
-					<li class="scrollTime" data-animation="slideUpAnimation" data-timeout="1200"><?php echo get_field('how_we_help_point_4'); ?></li>
-				</ul>
-				<a href="<?php echo home_url(); ?>/how-we-help">
-					<div class="cidea-button scrollTime" data-animation="slideUpAnimation" data-timeout="1000">
-						<div class="centered-container">
-							<div class="centered">
-								How We Help
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
-	<div class="right-section-container" style="background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png)">
-		<div class="rightsection-bg-overlay">
-		</div>
-		<div class="centered-container">
-			<div class="centered">
-				<div class="middle-section-title scrollTime" data-animation="slideUpAnimation" data-timeout="1000">
-					<?php echo get_field('right_section_title'); ?>
-				</div>
-				<div class="middle-section-paragraph scrollTime" data-animation="slideRightAnimation" data-timeout="1400">
-					<?php echo get_field('right_section_paragraph'); ?>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xlg-12 remove-pad-marg">
-	<div class="bottom-section-container" style="background-image: url(<?php echo get_field('bottom_section_image')['url']; ?>);">
-		<div class="centered-container">
-			<div class="centered">
-				<div class="bottom-section-title scrollTime" data-animation="slideUpAnimation" data-timeout="1000">
-					<?php echo get_field('bottom_section_title'); ?>
-				</div>
-				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml" class="scrollTime" data-animation="rotateInAnimation" data-timeout="1500">
-					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" class="scrollTime" data-animation="rotateInAnimation" data-timeout="1500"/>
-				</object>
-				<a href="<?php echo home_url(); ?>/who-we-are">
-					<div class="cidea-button scrollTime" data-animation="slideUpAnimation" data-timeout="1000">
-						<div class="centered-container">
-							<div class="centered">
-								Who We Are
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<?php get_footer(); ?>
