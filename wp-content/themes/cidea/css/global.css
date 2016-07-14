@@ -449,6 +449,36 @@ input[type=text] {
 	}
 }
 
+/* ANIMATION CLASSES */
+
+.slideUpAnimation {
+	transform: translate3d(0,40px,0);
+	-webkit-transform: translate3d(0,40px,0);
+	animation        : slideUp 1s forwards;
+	-webkit-animation: slideUp 1s forwards;
+}
+
+.rotateInAnimation {
+	transform: rotate(0);
+	-webkit-transform: rotate(0);
+	transform: scale3d(0,0);
+	-webkit-transform: scale3d(0,0);
+	animation        : rotateIn .6s forwards;
+	-webkit-animation: rotateIn .6s forwards;
+}
+
+.slideRightAnimation {
+	transform: translate3d(-100px,0,0);
+	-webkit-transform: translate3d(-100px,0,0);
+	animation        : slideRight 1s forwards;
+	-webkit-animation: slideRight 1s forwards;
+}
+
+.lowerOpacitySlow {
+	animation        : lowerOpacitySlow 4s forwards;
+	-webkit-animation: lowerOpacitySlow 4s forwards;
+}
+
 @-webkit-keyframes slideIn {
     from { opacity: 0; -webkit-transform: translate3d(-180px,0,0);}
     to   { opacity: 1; -webkit-transform: translate3d(0,0,0); }
@@ -480,13 +510,13 @@ input[type=text] {
 }
 
 @-webkit-keyframes rotateIn {
-    from { opacity: 0; -webkit-transform: rotate(0);}
-    to   { opacity: 1; -webkit-transform: rotate(-360deg); }
+    from { opacity: 0; -webkit-transform: rotate(0); -webkit-transform: scale3d(0,0);}
+    to   { opacity: 1; -webkit-transform: rotate(-360deg); -webkit-transform: scale3d(1,1); }
 }
 
 @keyframes rotateIn {
-    from { opacity: 0; transform: rotate(0); }
-    to   { opacity: 1; transform: rotate(-360deg); }
+    from { opacity: 0; transform: rotate(0); transform: scale3d(0,0); }
+    to   { opacity: 1; transform: rotate(-360deg); transform: scale3d(0,0); }
 }
 
 @-webkit-keyframes lowerOpacitySlow {
@@ -497,30 +527,4 @@ input[type=text] {
 @keyframes lowerOpacitySlow {
     from { opacity: 1; }
     to   { opacity: .8; }
-}
-
-.slideUpAnimation {
-	transform: translate3d(0,40px,0);
-	-webkit-transform: translate3d(0,40px,0);
-	animation        : slideUp 1s forwards;
-	-webkit-animation: slideUp 1s forwards;
-}
-
-.rotateInAnimation {
-	transform: rotate(0);
-	-webkit-transform: rotate(0);
-	animation        : rotateIn .6s forwards;
-	-webkit-animation: rotateIn .6s forwards;
-}
-
-.slideRightAnimation {
-	transform: translate3d(-100px,0,0);
-	-webkit-transform: translate3d(-100px,0,0);
-	animation        : slideRight 1s forwards;
-	-webkit-animation: slideRight 1s forwards;
-}
-
-.lowerOpacitySlow {
-	animation        : lowerOpacitySlow 4s forwards;
-	-webkit-animation: lowerOpacitySlow 4s forwards;
 }
