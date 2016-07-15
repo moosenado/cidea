@@ -1,0 +1,33 @@
+/*
+* CSS for How We Help Page
+*/
+
+.top-section-container {
+	text-align: center;
+	margin    : 100px 0 0 0;
+}
+
+.top-section-container h1 {
+	font-family: Cidea;
+	font-size  : 60px;
+	color      : #2a6f75;
+}
+
+.large-title-swirl {
+	margin: 0 0 50px 0;
+}
+
+.large-title-swirl object, .large-title-swirl img {
+	width: 40px;
+}
+
+.top-section-content {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.top-section-content object, .top-section-content img {
+	width: 20px;
+	opacity: .2;
+	margin: 12px 0;
+}
