@@ -96,5 +96,10 @@
 
 </div>
 
+<div class="bottom-section-container">
+	<h3><?php echo get_field('third_section_title'); ?></h3>
+	<div class="bottom-section-content"><?php echo get_field('third_section_paragraph'); ?></div>
+</div>
+
 
 <?php get_footer(); ?>

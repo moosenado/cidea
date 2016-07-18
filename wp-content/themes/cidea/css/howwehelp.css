@@ -63,6 +63,7 @@
 .business-case-cont {
 	position: relative;
 	padding-top: 50%;
+	margin-bottom: 100px;
 }
 
 .bg {
@@ -72,5 +73,18 @@
 
 .content-container {
 	width: 50%;
+	margin: 0 auto;
+}
+
+.bottom-section-container h3 {
+	font-family: Cidea;
+	font-size  : 60px;
+	color      : #4cc2c4;
+	margin     : 0 0 40px 0;
+	text-align : center;
+}
+
+.bottom-section-content {
+	width: 60%;
 	margin: 0 auto;
 }
