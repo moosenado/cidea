@@ -31,3 +31,46 @@
 	opacity: .2;
 	margin: 12px 0;
 }
+
+.second-section-container h2 {
+	font-family: Cidea;
+	font-size  : 60px;
+	color      : #2a6f75;
+	margin     : 100px 0 90px 0;
+	text-align : center;
+}
+
+.second-section-container h3 {
+	font-family: Cidea;
+	font-size  : 36px;
+	color      : #4cc2c4;
+	margin     : 0;
+	padding    : 0;
+}
+
+.second-section-container img {
+	width: 100%;
+}
+
+.second-section-container ul {
+	padding: 10px 0 0 20px;
+}
+
+.second-section-container ul li {
+	font-size: 14px;
+}
+
+.business-case-cont {
+	position: relative;
+	padding-top: 50%;
+}
+
+.bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content-container {
+	width: 50%;
+	margin: 0 auto;
+}
