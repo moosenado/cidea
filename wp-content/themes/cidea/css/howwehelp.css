@@ -9,7 +9,7 @@
 
 .top-section-container h1 {
 	font-family: Cidea;
-	font-size  : 60px;
+	font-size  : 48px;
 	color      : #2a6f75;
 }
 
@@ -18,12 +18,13 @@
 }
 
 .large-title-swirl object, .large-title-swirl img {
-	width: 40px;
+	width: 30px;
 }
 
 .top-section-content {
-	width: 60%;
+	width: 85%;
 	margin: 0 auto;
+	font-size: 14px;
 }
 
 .top-section-content object, .top-section-content img {
@@ -34,9 +35,9 @@
 
 .second-section-container h2 {
 	font-family: Cidea;
-	font-size  : 60px;
+	font-size  : 48px;
 	color      : #2a6f75;
-	margin     : 100px 0 90px 0;
+	margin     : 75px 0 40px 0;
 	text-align : center;
 }
 
@@ -62,29 +63,98 @@
 
 .business-case-cont {
 	position: relative;
+	padding-top: 75%;
+	margin-bottom: 40px;
+}
+
+.business-case-cont-img {
+	position: relative;
 	padding-top: 50%;
-	margin-bottom: 100px;
+	margin-bottom: 40px;
 }
 
 .bg {
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .content-container {
-	width: 50%;
+	width: 75%;
 	margin: 0 auto;
 }
 
-.bottom-section-container h3 {
+.third-section-container {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.third-section-container h3 {
 	font-family: Cidea;
-	font-size  : 60px;
+	font-size  : 48px;
 	color      : #4cc2c4;
-	margin     : 0 0 40px 0;
+	margin     : 65px 0 40px 0;
 	text-align : center;
 }
 
-.bottom-section-content {
-	width: 60%;
-	margin: 0 auto;
+.third-section-content {
+	width: 85%;
+	margin: 0 auto 75px auto;
+	font-size: 14px;
+	text-align : center;
+}
+
+@media all and ( min-width: 768px )  {
+
+	.top-section-container h1 {
+		font-size  : 60px;
+	}
+
+	.second-section-container h2 {
+		font-size  : 60px;
+	}
+
+	.bottom-section-container h3 {
+		font-size  : 60px;
+	}
+
+	.content-container {
+		width: 50%;
+	}
+
+	.top-section-content {
+		width: 60%;
+		font-size: 16px;
+	}
+
+	.bottom-section-content {
+		width: 60%;
+	}
+
+	.large-title-swirl object, .large-title-swirl img {
+		width: 40px;
+	}
+
+	.second-section-container h2 {
+		margin     : 100px 0 90px 0;
+	}
+
+	.business-case-cont {
+		padding-top: 50%;
+		margin-bottom: 100px;
+	}
+
+	.business-case-cont-img {
+		margin-bottom: 100px;
+	}
+
+	.third-section-content {
+		font-size: 16px;
+		width: 60%;
+	}
+
+	.third-section-container h3 {
+		margin     : 0 0 40px 0;
+	}
+
 }
