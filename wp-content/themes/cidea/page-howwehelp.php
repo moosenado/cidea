@@ -100,9 +100,12 @@
 
 <div class="clearfix"></div>
 
-<div class="third-section-container">
-	<h3><?php echo get_field('third_section_title'); ?></h3>
-	<div class="third-section-content"><?php echo get_field('third_section_paragraph'); ?></div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xlg-12 remove-pad-marg">
+	<div class="third-section-container" style="background-image: url(<?php echo get_field('third_section_background')['url']; ?>)">
+		<div class="rightsection-bg-overlay"></div>
+		<h3><?php echo get_field('third_section_title'); ?></h3>
+		<div class="third-section-content"><?php echo get_field('third_section_paragraph'); ?></div>
+	</div>
 </div>
 
 

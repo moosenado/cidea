@@ -84,24 +84,29 @@
 }
 
 .third-section-container {
+	position: relative;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
+	padding: 40px 0;
+	margin: 45px auto 75px auto;
 }
 
 .third-section-container h3 {
 	font-family: Cidea;
 	font-size  : 48px;
 	color      : #4cc2c4;
-	margin     : 65px 0 40px 0;
+	margin     : 0 0 40px 0;
 	text-align : center;
+	position   : relative;
 }
 
 .third-section-content {
 	width: 85%;
-	margin: 0 auto 75px auto;
+	margin: 0 auto;
 	font-size: 14px;
 	text-align : center;
+	position: relative;
 }
 
 @media all and ( min-width: 768px )  {
@@ -153,8 +158,8 @@
 		width: 60%;
 	}
 
-	.third-section-container h3 {
-		margin     : 0 0 40px 0;
+	.third-section-container {
+		margin: 0 auto 75px auto;
 	}
 
 }

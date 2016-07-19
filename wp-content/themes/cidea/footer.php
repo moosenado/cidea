@@ -1,16 +1,19 @@
 <?php
 $Email = new Email();
 $Email->checkEmail();
+global $post;
+$post_slug = $post->post_name;
+$style = ($post_slug == 'how-we-help') ? 're-position-bg' : '';
 ?>
 
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xlg-12 remove-pad-marg">
-	<footer class="footer-container" style="background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png)">
+	<footer class="footer-container <?=$style?>" style="background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png)">
 		<div class="footer-bg-overlay scrollTime" data-animation="lowerOpacitySlow" data-timeout="1000">
 		</div>
 		<div class="centered-container">
 			<div class="centered footer-content-container">
-				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-full-logo-transparent.svg" type="image/svg+xml">
-        			<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-transparent-final.png" />
+				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-full-logo-transparent.svg" type="image/svg+xml" class="footer-logo-reposition">
+        			<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-svg-transparent-final.png" class="footer-logo-reposition" />
         		</object>
         		<div class="address-container">
         			<ul>

@@ -435,6 +435,14 @@ input[type=text] {
 		background-size    : auto 120%;
 	}
 
+	.footer-logo-reposition {
+		margin-left: -6px;
+	}
+
+	.re-position-bg {
+		background-size: auto 100% !important;
+	}
+
 	.footer-container ul {
 		padding: 0;
 		text-align: left;
