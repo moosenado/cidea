@@ -194,7 +194,7 @@ nav {
 
 @-webkit-keyframes burgerAppear {
     from { opacity: 0; -webkit-transform: scale3d(0,0,0); border-radius: 100%;}
-    to   { opacity: 1; -webkit-transform: scale3d(1,1,0); border-radius: 0; }
+    to   { opacity: 1; -webkit-transform: scale3d(1,1,1); border-radius: 0; }
 }
 
 @keyframes burgerAppear {
@@ -230,6 +230,10 @@ nav {
 .remove-pad-marg {
 	margin : 0 !important;
 	padding: 0 !important;
+}
+
+.no-opacity {
+	opacity: 0;
 }
 
 .cidea-button {
@@ -466,6 +470,13 @@ input[type=text] {
 	-webkit-animation: slideUp 1s forwards;
 }
 
+.slideUpAnimationSlow {
+	transform: translate3d(0,40px,0);
+	-webkit-transform: translate3d(0,40px,0);
+	animation        : slideUp 2s forwards;
+	-webkit-animation: slideUp 2s forwards;
+}
+
 .rotateInAnimation {
 	transform: rotate(0);
 	-webkit-transform: rotate(0);
@@ -485,6 +496,11 @@ input[type=text] {
 .lowerOpacitySlow {
 	animation        : lowerOpacitySlow 4s forwards;
 	-webkit-animation: lowerOpacitySlow 4s forwards;
+}
+
+.fadeInSlow {
+	animation        : fadeIn 2s forwards;
+	-webkit-animation: fadeIn 2s forwards;
 }
 
 @-webkit-keyframes slideIn {

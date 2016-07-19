@@ -15,6 +15,7 @@
 
 .large-title-swirl {
 	margin: 0 0 50px 0;
+	opacity: 0;
 }
 
 .large-title-swirl object, .large-title-swirl img {
@@ -25,6 +26,7 @@
 	width: 85%;
 	margin: 0 auto;
 	font-size: 14px;
+	opacity: 0;
 }
 
 .top-section-content object, .top-section-content img {
@@ -65,12 +67,14 @@
 	position: relative;
 	padding-top: 75%;
 	margin-bottom: 40px;
+	opacity: 0;
 }
 
 .business-case-cont-img {
 	position: relative;
 	padding-top: 50%;
 	margin-bottom: 40px;
+	opacity: 0;
 }
 
 .bg {
@@ -99,6 +103,7 @@
 	margin     : 0 0 40px 0;
 	text-align : center;
 	position   : relative;
+	opacity: 0;
 }
 
 .third-section-content {
@@ -107,6 +112,7 @@
 	font-size: 14px;
 	text-align : center;
 	position: relative;
+	opacity: 0;
 }
 
 @media all and ( min-width: 768px )  {
@@ -128,7 +134,7 @@
 	}
 
 	.top-section-content {
-		width: 60%;
+		width: 50%;
 		font-size: 16px;
 	}
 
@@ -155,11 +161,18 @@
 
 	.third-section-content {
 		font-size: 16px;
-		width: 60%;
+		width: 50%;
 	}
 
 	.third-section-container {
 		margin: 0 auto 75px auto;
 	}
 
+}
+
+@media all and ( min-width: 1600px )  {
+	
+	.second-section-container h3 {
+		font-size  : 46px;
+	}
 }
