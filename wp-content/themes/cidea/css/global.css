@@ -498,6 +498,11 @@ input[type=text] {
 	-webkit-animation: lowerOpacitySlow 4s forwards;
 }
 
+.lowerOpacitySlower {
+	animation        : lowerOpacitySlower 4s forwards;
+	-webkit-animation: lowerOpacitySlower 4s forwards;
+}
+
 .fadeInSlow {
 	animation        : fadeIn 2s forwards;
 	-webkit-animation: fadeIn 2s forwards;
@@ -551,4 +556,14 @@ input[type=text] {
 @keyframes lowerOpacitySlow {
     from { opacity: 1; }
     to   { opacity: .8; }
+}
+
+@-webkit-keyframes lowerOpacitySlower {
+    from { opacity: 1; }
+    to   { opacity: .9; }
+}
+
+@keyframes lowerOpacitySlower {
+    from { opacity: 1; }
+    to   { opacity: .9; }
 }

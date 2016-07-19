@@ -102,7 +102,7 @@
 
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xlg-12 remove-pad-marg">
 	<div class="third-section-container" style="background-image: url(<?php echo get_field('third_section_background')['url']; ?>)">
-		<div class="footer-bg-overlay scrollTime" data-animation="lowerOpacitySlow" data-timeout="500"></div>
+		<div class="third-section-bg-overlay scrollTime" data-animation="lowerOpacitySlower" data-timeout="500"></div>
 		<h3 class="scrollTime" data-animation="slideUpAnimation" data-timeout="500"><?php echo get_field('third_section_title'); ?></h3>
 		<div class="third-section-content scrollTime" data-animation="slideRightAnimation" data-timeout="900"><?php echo get_field('third_section_paragraph'); ?></div>
 	</div>

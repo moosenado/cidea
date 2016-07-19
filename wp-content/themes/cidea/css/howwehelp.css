@@ -115,6 +115,16 @@
 	opacity: 0;
 }
 
+.third-section-bg-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 1;
+	background-color: #fff;
+}
+
 @media all and ( min-width: 768px )  {
 
 	.top-section-container h1 {
