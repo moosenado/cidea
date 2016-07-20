@@ -255,6 +255,10 @@ nav {
 	background-color: rgba(255,255,255,0);
 }
 
+.one-hundred {
+	width: 95%;
+}
+
 /*
 * FOOTER
 */
@@ -430,7 +434,7 @@ input[type=text] {
 
 	.footer-content-container{
 		text-align: left;
-		padding-left: 5%;
+		padding-left: 7%;
 	}
 
 	.footer-container {

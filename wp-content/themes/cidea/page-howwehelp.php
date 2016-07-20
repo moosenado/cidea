@@ -46,7 +46,7 @@
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
 		<div class="business-case-cont scrollTime" data-animation="slideUpAnimationSlow" data-timeout="600">
 			<div class="centered-container">
-				<div class="centered">
+				<div class="centered one-hundred">
 					<div class="content-container">
 						<h3><?php echo get_field('business_case_section_one_title'); ?></h3>
 						<div><?php echo get_field('business_case_section_one_paragraph'); ?></div>
@@ -63,7 +63,7 @@
 	<div class="col-xs-12 col-sm-12 col-md-push-6 col-md-6 col-lg-push-6 col-lg-6 col-xlg-push-6 col-xlg-6 remove-pad-marg">
 		<div class="business-case-cont scrollTime" data-animation="slideUpAnimationSlow" data-timeout="600">
 			<div class="centered-container">
-				<div class="centered">
+				<div class="centered one-hundred">
 					<div class="content-container">
 						<h3><?php echo get_field('business_case_section_two_title'); ?></h3>
 						<div><?php echo get_field('business_case_section_two_paragraph'); ?></div>
@@ -80,7 +80,7 @@
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
 		<div class="business-case-cont scrollTime" data-animation="slideUpAnimationSlow" data-timeout="600">
 			<div class="centered-container">
-				<div class="centered">
+				<div class="centered one-hundred">
 					<div class="content-container">
 						<h3><?php echo get_field('business_case_section_three_title'); ?></h3>
 						<div><?php echo get_field('business_case_section_third_paragraph'); ?></div>
@@ -91,7 +91,7 @@
 	</div>
 
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
-		<div class="business-case-cont-img bg fadeInSlow" data-animation="fadeInSlow" data-timeout="600" style="background-image: url(<?php echo get_field('business_case_section_three_image')['url']; ?>)"></div>
+		<div class="business-case-cont-img bg scrollTime" data-animation="fadeInSlow" data-timeout="600" style="background-image: url(<?php echo get_field('business_case_section_three_image')['url']; ?>)"></div>
 	</div>
 
 	<div class="clearfix"></div>
