@@ -84,6 +84,6 @@ $style = ($post_slug == 'how-we-help') ? 're-position-bg' : '';
 	</footer>
 
 </div>
-<script src="<?php echo home_url(); ?>/wp-content/themes/cidea/js/main.js"></script>
+<?php wp_footer(); ?>
 </body>
 </html>
