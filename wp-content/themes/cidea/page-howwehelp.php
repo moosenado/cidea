@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 
 <div class="top-section-container">
-	<h1><?php echo get_field('page_title'); ?></h1>
+	<h1 class="scrollTime" data-animation="slideUpAnimation"><?php echo get_field('page_title'); ?></h1>
 	<div class="large-title-swirl scrollTime" data-animation="rotateInAnimation">
 		<div>
 			<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
@@ -11,37 +11,44 @@
 			</object>
 		</div>
 	</div>
-	<div class="top-section-content scrollTime" data-animation="slideUpAnimation">
-		<?php echo get_field('paragraph_one'); ?>
-		<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="300">
-			<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
-				<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
-			</object>
+	<div class="no-opacity scrollTime" data-animation="slideUpAnimation" data-timeout="200">
+
+		<div class="top-section-content">
+			<?php echo get_field('paragraph_one'); ?>
+			<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="200">
+				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
+					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+				</object>
+			</div>
 		</div>
-	</div>
-	<div class="top-section-content scrollTime" data-animation="slideUpAnimation">
-		<?php echo get_field('paragraph_two'); ?>
-		<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="300">
-			<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
-				<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
-			</object>
+
+		<div class="top-section-content">
+			<?php echo get_field('paragraph_two'); ?>
+			<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="200">
+				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
+					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+				</object>
+			</div>
 		</div>
-	</div>
-	<div class="top-section-content scrollTime" data-animation="slideUpAnimation">
-		<?php echo get_field('paragraph_three'); ?>
-		<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="300">
-			<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
-				<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
-			</object>
+
+		<div class="top-section-content">
+			<?php echo get_field('paragraph_three'); ?>
+			<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="200">
+				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
+					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
+				</object>
+			</div>
 		</div>
-	</div>
-	<div class="top-section-content scrollTime" data-animation="slideUpAnimation">
-		<?php echo get_field('paragraph_four'); ?>
+
+		<div class="top-section-content">
+			<?php echo get_field('paragraph_four'); ?>
+		</div>
+
 	</div>
 </div>
 
 <div class="second-section-container">
-	<h2><?php echo get_field('second_section_title'); ?></h2>
+	<h2 class="scrollTime no-opacity" data-animation="slideUpAnimation" data-timeout="400"><?php echo get_field('second_section_title'); ?></h2>
 
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
 		<div class="business-case-cont scrollTime" data-animation="slideUpAnimationSlow" data-timeout="600">
@@ -102,9 +109,9 @@
 
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xlg-12 remove-pad-marg">
 	<div class="third-section-container" style="background-image: url(<?php echo get_field('third_section_background')['url']; ?>)">
-		<div class="third-section-bg-overlay scrollTime" data-animation="lowerOpacitySlower" data-timeout="500"></div>
-		<h3 class="scrollTime" data-animation="slideUpAnimation" data-timeout="500"><?php echo get_field('third_section_title'); ?></h3>
-		<div class="third-section-content scrollTime" data-animation="slideRightAnimation" data-timeout="900"><?php echo get_field('third_section_paragraph'); ?></div>
+		<div class="third-section-bg-overlay scrollTime" data-animation="lowerOpacitySlower" data-timeout="400"></div>
+		<h3 class="scrollTime" data-animation="slideUpAnimation" data-timeout="400"><?php echo get_field('third_section_title'); ?></h3>
+		<div class="third-section-content scrollTime" data-animation="slideRightAnimation" data-timeout="600"><?php echo get_field('third_section_paragraph'); ?></div>
 	</div>
 </div>
 
