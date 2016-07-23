@@ -4,7 +4,7 @@
 
 <div class="top-section-container">
 	<h1 class="scrollTime" data-animation="slideUpAnimation"><?php echo get_field('page_title'); ?></h1>
-	<div class="large-title-swirl scrollTime" data-animation="rotateInAnimation">
+	<div class="large-title-swirl scrollTime" data-animation="rotateInAnimation" data-timeout="500">
 		<div>
 			<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
 				<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
