@@ -66,7 +66,7 @@
 	font-family: Cidea;
 	font-size  : 30px;
 	color      : #4cc2c4;
-	margin: 30px 0 20px 0;
+	margin: 50px 0 20px 0;
 }
 
 .wwa-info-cont {
@@ -153,11 +153,14 @@
 
 	.wwa-middle-content-cont h2 {
 		margin: 0;
+		font-size  : 48px;
 	}
 
 	.wwa-bio-cont-desktop {
 		margin: 100px 0;
 	}
 
-
+	.wwa-middle-content-cont h3 {
+		margin: 30px 0 20px 0;
+	}
 }
