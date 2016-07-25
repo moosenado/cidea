@@ -3,7 +3,7 @@ $Email = new Email();
 $Email->checkEmail();
 global $post;
 $post_slug = $post->post_name;
-$style = ($post_slug == 'how-we-help') ? 're-position-bg' : '';
+$style = ($post_slug == 'how-we-help' || $post_slug == 'who-we-are' ) ? 're-position-bg' : '';
 ?>
 
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xlg-12 remove-pad-marg">

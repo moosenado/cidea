@@ -22,7 +22,7 @@ var openMenu = function() {
     else
     {
         $('.mobile-menu').css({
-            'z-index':'0',
+            'z-index':'-1',
             'opacity':'0'
         });
 
