@@ -14,7 +14,7 @@
 	<div class="no-opacity scrollTime" data-animation="slideUpAnimation" data-timeout="200">
 
 		<div class="top-section-content">
-			<?php echo get_field('paragraph_one'); ?>
+			<p><?php echo get_field('paragraph_one'); ?></p>
 			<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="200">
 				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
 					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="top-section-content">
-			<?php echo get_field('paragraph_two'); ?>
+			<p><?php echo get_field('paragraph_two'); ?></p>
 			<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="200">
 				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
 					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
@@ -32,7 +32,7 @@
 		</div>
 
 		<div class="top-section-content">
-			<?php echo get_field('paragraph_three'); ?>
+			<p><?php echo get_field('paragraph_three'); ?></p>
 			<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="200">
 				<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
 					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
@@ -41,7 +41,7 @@
 		</div>
 
 		<div class="top-section-content">
-			<?php echo get_field('paragraph_four'); ?>
+			<p><?php echo get_field('paragraph_four'); ?></p>
 		</div>
 
 	</div>
@@ -56,7 +56,7 @@
 				<div class="centered one-hundred">
 					<div class="content-container">
 						<h3><?php echo get_field('business_case_section_one_title'); ?></h3>
-						<div><?php echo get_field('business_case_section_one_paragraph'); ?></div>
+						<?php echo get_field('business_case_section_one_paragraph'); ?>
 					</div>
 				</div>
 			</div>
@@ -73,7 +73,7 @@
 				<div class="centered one-hundred">
 					<div class="content-container">
 						<h3><?php echo get_field('business_case_section_two_title'); ?></h3>
-						<div><?php echo get_field('business_case_section_two_paragraph'); ?></div>
+						<?php echo get_field('business_case_section_two_paragraph'); ?>
 					</div>
 				</div>
 			</div>
@@ -90,7 +90,7 @@
 				<div class="centered one-hundred">
 					<div class="content-container">
 						<h3><?php echo get_field('business_case_section_three_title'); ?></h3>
-						<div><?php echo get_field('business_case_section_third_paragraph'); ?></div>
+						<?php echo get_field('business_case_section_third_paragraph'); ?>
 					</div>
 				</div>
 			</div>
@@ -111,7 +111,7 @@
 	<div class="third-section-container" style="background-image: url(<?php echo get_field('third_section_background')['url']; ?>)">
 		<div class="third-section-bg-overlay scrollTime" data-animation="lowerOpacitySlower" data-timeout="400"></div>
 		<h3 class="scrollTime" data-animation="slideUpAnimation" data-timeout="400"><?php echo get_field('third_section_title'); ?></h3>
-		<div class="third-section-content scrollTime" data-animation="slideRightAnimation" data-timeout="600"><?php echo get_field('third_section_paragraph'); ?></div>
+		<p class="third-section-content scrollTime" data-animation="slideRightAnimation" data-timeout="600"><?php echo get_field('third_section_paragraph'); ?></p>
 	</div>
 </div>
 
