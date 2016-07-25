@@ -69,6 +69,10 @@
 	margin: 30px 0 20px 0;
 }
 
+.wwa-info-cont {
+	text-align: center;
+}
+
 .wwa-bio-info p {
 	width: 85%;
 	font-size: 14px;
@@ -127,10 +131,33 @@
 	}
 }
 
-@media all and ( min-width: 768px )  {
+@media all and ( min-width: 1024px )  {
 
 	.wwa-top-page-banner {
 		padding-top: 31.25%
 	}
+
+	.wwa-bio-image img {
+		float: right;
+		margin: 10px 20px 0 0;
+	}
+
+	.wwa-info-cont {
+		text-align: left;
+	}
+
+	.wwa-bio-info p {
+		width: 100%;
+		padding-right: 35%;
+	}
+
+	.wwa-middle-content-cont h2 {
+		margin: 0;
+	}
+
+	.wwa-bio-cont-desktop {
+		margin: 100px 0;
+	}
+
 
 }
