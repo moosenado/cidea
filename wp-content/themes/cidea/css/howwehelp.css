@@ -29,6 +29,10 @@
 	font-size: 14px;
 }
 
+.top-section-content p {
+	margin: 0;
+}
+
 .top-section-content object, .top-section-content img {
 	width: 20px;
 	opacity: .2;
