@@ -59,7 +59,7 @@
 			<img src="<?php echo get_field('social_media_icon')['url']; ?>" />
 		</a>
 	</div>
-	<h3 class="no-opacity scrollTime" data-animation="slideUpAnimation" data-timeout="400"><?php echo get_field('client_section_title'); ?></h3>
+	<h3 class="no-opacity scrollTime" data-animation="slideUpAnimation" data-timeout="600"><?php echo get_field('client_section_title'); ?></h3>
 	<div class="wwa-client-list-cont">
 		<ul>
 			<?php for ($x = 1; $x <= 15; $x++) : 

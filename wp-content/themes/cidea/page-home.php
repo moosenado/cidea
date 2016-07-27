@@ -187,10 +187,10 @@
 		</div>
 		<div class="centered-container">
 			<div class="centered">
-				<div class="middle-section-title scrollTime" data-animation="slideUpAnimation" data-timeout="1000">
+				<div class="middle-section-title scrollTime" data-animation="slideUpAnimation" data-timeout="500">
 					<?php echo get_field('right_section_title'); ?>
 				</div>
-				<div class="middle-section-paragraph scrollTime" data-animation="slideRightAnimation" data-timeout="1400">
+				<div class="middle-section-paragraph scrollTime" data-animation="slideRightAnimation" data-timeout="900">
 					<?php echo get_field('right_section_paragraph'); ?>
 				</div>
 			</div>
