@@ -48,7 +48,7 @@ var scrollTime = function() {
         if( winWidth <= 1024 ){
             offsetTop = $this.offset().top;
         } else {
-            offsetTop = $this.offset().top + 150;
+            offsetTop = $this.offset().top + 50;
         }
 
         // console.log(scrolled + ' ' + winPadding + ' ' + offsetTop);

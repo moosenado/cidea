@@ -7,7 +7,7 @@
 	padding-top        : 52.083%;
 	background-repeat  : repeat-x;
 	background-position: center;
-	background-size    : cover;
+	background-size    : 100%;
 	text-align         : center;
 	overflow           : hidden;
 }
@@ -15,6 +15,7 @@
 .wwa-top-content-cont {
 	text-align: center;
 	margin: 60px 0 0 0;
+	opacity: 0;
 }
 
 .wwa-top-page-banner h1 {
@@ -57,6 +58,10 @@
 	margin: 10px;
 }
 
+.wwa-bio-image {
+	overflow: hidden;
+}
+
 .wwa-bio-image img {
 	max-width: 200px;
 	margin: 10px auto;
@@ -71,6 +76,7 @@
 
 .wwa-info-cont {
 	text-align: center;
+	overflow: hidden;
 }
 
 .wwa-bio-info p {
