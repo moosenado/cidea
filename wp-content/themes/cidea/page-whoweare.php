@@ -22,10 +22,12 @@
 
 <div class="wwa-middle-content-cont">
 	<div class="visible-xs visible-sm">
-		<h2><?php echo get_field('bio_name'); ?></h2>
-		<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" class="wwa-svg" type="image/svg+xml">
-			<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" class="wwa-svg"/>
-		</object>
+		<h2 class="no-opacity scrollTime" data-animation="slideUpAnimation"><?php echo get_field('bio_name'); ?></h2>
+		<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="400">
+			<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" class="wwa-svg" type="image/svg+xml">
+				<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" class="wwa-svg"/>
+			</object>
+		</div>
 	</div>
 	<div class="col-md-12 wwa-bio-cont-desktop">
 		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xlg-5 remove-pad-marg">

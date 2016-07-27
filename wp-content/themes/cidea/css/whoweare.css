@@ -14,7 +14,7 @@
 
 .wwa-top-content-cont {
 	text-align: center;
-	margin: 60px 0 0 0;
+	margin: 30px 0 0 0;
 	opacity: 0;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .wwa-client-list-cont {
-	margin: 0 20px 60px 20px;
+	margin: 0 20px 40px 20px;
 }
 
 .wwa-client-list-cont ul {
@@ -122,6 +122,14 @@
 
 @media all and ( min-width: 768px )  {
 
+	.wwa-top-content-cont {
+		margin: 60px 0 0 0;
+	}
+
+	.wwa-client-list-cont {
+		margin: 0 20px 60px 20px;
+	}
+	
 	.wwa-top-content-cont p {
 		width: 50%;
 		font-size: 16px;
