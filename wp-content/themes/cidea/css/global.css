@@ -522,15 +522,15 @@ input[type=text] {
 .slideRightAnimationFar {
 	transform: translate3d(-400px,0,0);
 	-webkit-transform: translate3d(-400px,0,0);
-	animation        : slideRightFar 2.5s forwards;
-	-webkit-animation: slideRightFar 2.5s forwards;
+	animation        : slideRightFar 2.2s forwards;
+	-webkit-animation: slideRightFar 2.2s forwards;
 }
 
 .slideLeftAnimationFar {
 	transform: translate3d(400px,0,0);
 	-webkit-transform: translate3d(400px,0,0);
-	animation        : slideLeftFar 2.5s forwards;
-	-webkit-animation: slideLeftFar 2.5s forwards;
+	animation        : slideLeftFar 2.2s forwards;
+	-webkit-animation: slideLeftFar 2.2s forwards;
 }
 
 .zoomInAnimation {

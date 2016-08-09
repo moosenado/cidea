@@ -39,6 +39,10 @@
 	margin: 12px 0;
 }
 
+.second-section-container {
+	margin-bottom: 20px;
+}
+
 .second-section-container h2 {
 	font-family: Cidea;
 	font-size  : 48px;
@@ -69,15 +73,13 @@
 
 .business-case-cont {
 	position: relative;
-	padding-top: 60%;
-	margin-bottom: 40px;
+	padding-top: 100%;
 	opacity: 0;
 }
 
 .business-case-cont-img {
 	position: relative;
 	padding-top: 50%;
-	margin-bottom: 40px;
 	opacity: 0;
 }
 
@@ -97,7 +99,7 @@
 	background-size: contain;
 	background-position: center;
 	padding: 40px 0;
-	margin: 45px auto 75px auto;
+	margin: 45px auto 45px auto;
 }
 
 .third-section-container h3 {
@@ -129,6 +131,18 @@
 	background-color: #fff;
 }
 
+#hwh-section1 {
+	background-color: rgba(76,194,196,.2);
+}
+
+#hwh-section2 {
+	background-color: rgba(76,147,153,.2);
+}
+
+#hwh-section3 {
+	background-color: rgba(24,80,79,.2);
+}
+
 @media all and ( min-width: 768px )  {
 
 	.top-section-container h1 {
@@ -148,6 +162,10 @@
 		width: 50%;
 	}
 
+	.second-section-container {
+		margin-bottom: 70px;
+	}
+
 	.top-section-content {
 		width: 50%;
 		font-size: 16px;
@@ -163,11 +181,6 @@
 
 	.business-case-cont {
 		padding-top: 50%;
-		margin-bottom: 50px;
-	}
-
-	.business-case-cont-img {
-		margin-bottom: 50px;
 	}
 
 	.third-section-content {

@@ -236,8 +236,11 @@
 		overflow: visible;
 	}
 
-	.left-section-container {
-		padding-top: 31.25%;
+	.right-section-container {
+		text-align: left;
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: 300px -10%;
 	}
 
 	.half-circle-cover {
@@ -256,14 +259,6 @@
 		top: 0;
 		background-color: #fff;
 		opacity: .4;
-	}
-
-	.right-section-container {
-		text-align: left;
-		padding-top: 31.25%;
-		background-repeat: no-repeat;
-	    background-size: cover;
-	    background-position: 300px -10%;
 	}
 
 	.how-we-help-ul {
@@ -333,6 +328,14 @@
 
 	.bottom-section-container {
 		padding-top: 31.25%; /*height/widthx100*/
+	}
+
+	.left-section-container {
+		padding-top: 31.25%;
+	}
+
+	.right-section-container {
+		padding-top: 31.25%;
 	}
 }
 
