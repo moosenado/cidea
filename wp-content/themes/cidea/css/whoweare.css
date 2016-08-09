@@ -50,7 +50,7 @@
 	font-family: Cidea;
 	font-size  : 36px;
 	color      : #2a6f75;
-	margin: 70px 0 0 0;
+	margin: 0;
 }
 
 .wwa-middle-content-cont .wwa-svg {
@@ -120,6 +120,16 @@
 	opacity: .8;
 }
 
+.wwa-profile-radius {
+	border-radius: 50%;
+}
+
+.wwa-bio-background {
+	background-color: rgba(216,246,229,.5);
+	margin: 60px 0 60px 0;
+	padding: 40px 0 40px 0;
+}
+
 @media all and ( min-width: 768px )  {
 
 	.wwa-top-content-cont {
@@ -166,12 +176,11 @@
 	}
 
 	.wwa-middle-content-cont h2 {
-		margin: 0;
 		font-size  : 48px;
 	}
 
 	.wwa-bio-cont-desktop {
-		margin: 100px 0;
+		margin: 40px 0 0 0;
 	}
 
 	.wwa-middle-content-cont h3 {

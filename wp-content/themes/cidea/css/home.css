@@ -119,13 +119,13 @@
 
 .middle-section-title {
 	font-family: Cidea;
-	font-size: 27px;
+	font-size: 30px;
 	margin: 0 auto 30px auto;
 	opacity: 0;
 }
 
 .middle-section-paragraph {
-	font-size: 14px;
+	font-size: 13px;
 	color: #2a6f75;
 	margin: 0 auto;
 	opacity: 0;
@@ -230,13 +230,14 @@
 }
 
 @media all and ( min-width: 768px )  {
+
 	.top-banner-container {
 		padding-top: 56.25%; /*height/widthx100*/
 		overflow: visible;
 	}
 
 	.left-section-container {
-		padding-top: 62.5%; /*height/widthx100*/
+		padding-top: 31.25%;
 	}
 
 	.half-circle-cover {
@@ -265,14 +266,24 @@
 
 	.right-section-container {
 		text-align: left;
-		padding-top: 62.5%;
+		padding-top: 31.25%;
 		background-repeat: no-repeat;
 	    background-size: cover;
-	    background-position: 300px -40%;
+	    background-position: 300px -10%;
+	}
+
+	.how-we-help-ul {
+		margin-bottom: 6%;
+	}
+
+	.how-we-help-ul li {
+		display: inline-block;
+		padding: 0 4px;
 	}
 
 	.how-we-help-ul li:nth-child(even) {
-		margin-bottom: 4%;
+		margin: 0;
+		font-size: 0;
 	}
 
 	.middle-section-paragraph {

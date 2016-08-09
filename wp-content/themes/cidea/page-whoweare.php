@@ -20,7 +20,7 @@
 	<?php echo get_field('page_information'); ?>
 </div>
 
-<div class="wwa-middle-content-cont">
+<div class="wwa-middle-content-cont wwa-bio-background">
 	<div class="visible-xs visible-sm">
 		<h2 class="no-opacity scrollTime" data-animation="slideUpAnimation"><?php echo get_field('bio_name'); ?></h2>
 		<div class="no-opacity scrollTime" data-animation="rotateInAnimation" data-timeout="400">
@@ -32,7 +32,7 @@
 	<div class="col-md-12 wwa-bio-cont-desktop">
 		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xlg-5 remove-pad-marg">
 			<div class="wwa-bio-image">
-				<img src="<?php echo get_field('bio_image')['url']; ?>" class="no-opacity scrollTime" data-animation="slideLeftAnimationFar"/>
+				<img src="<?php echo get_field('bio_image')['url']; ?>" class="wwa-profile-radius no-opacity scrollTime" data-animation="slideLeftAnimationFar"/>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xlg-7 remove-pad-marg">
@@ -53,12 +53,17 @@
 				</div>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 	</div>
-	<div class="wwa-social-media-icon visible-xs visible-sm">
+	<div class="wwa-social-media-icon visible-xs visible-sm no-opacity scrollTime" data-animation="slideRightAnimationFar">
 		<a href="<?php echo get_field('linkedin_url'); ?>" target="_blank">
 			<img src="<?php echo get_field('social_media_icon')['url']; ?>" />
 		</a>
 	</div>
+	<div class="clearfix"></div>
+</div>
+
+<div class="wwa-middle-content-cont">
 	<h3 class="no-opacity scrollTime" data-animation="slideUpAnimation" data-timeout="600"><?php echo get_field('client_section_title'); ?></h3>
 	<div class="wwa-client-list-cont">
 		<ul>
@@ -69,5 +74,6 @@
 	   		<?php endfor; ?>
 		</ul>
 	</div>
+</div>
 </div>
 <?php get_footer(); ?>

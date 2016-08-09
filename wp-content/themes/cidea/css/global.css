@@ -326,7 +326,8 @@ nav {
 .form-title {
 	font-family: Cidea;
 	color: #59c8c9;
-	font-size: 28px;
+	font-size: 21px;
+	margin: 0 0 10px 0;
 }
 
 .submit-btn {
@@ -518,17 +519,17 @@ input[type=text] {
 }
 
 .slideRightAnimationFar {
-	transform: translate3d(-1500px,0,0);
-	-webkit-transform: translate3d(-1500px,0,0);
-	animation        : slideRightFar 2s forwards;
-	-webkit-animation: slideRightFar 2s forwards;
+	transform: translate3d(-400px,0,0);
+	-webkit-transform: translate3d(-400px,0,0);
+	animation        : slideRightFar 2.5s forwards;
+	-webkit-animation: slideRightFar 2.5s forwards;
 }
 
 .slideLeftAnimationFar {
-	transform: translate3d(1500px,0,0);
-	-webkit-transform: translate3d(1500px,0,0);
-	animation        : slideLeftFar 2s forwards;
-	-webkit-animation: slideLeftFar 2s forwards;
+	transform: translate3d(400px,0,0);
+	-webkit-transform: translate3d(400px,0,0);
+	animation        : slideLeftFar 2.5s forwards;
+	-webkit-animation: slideLeftFar 2.5s forwards;
 }
 
 .zoomInAnimation {
@@ -599,25 +600,25 @@ input[type=text] {
 }
 
 @-webkit-keyframes slideRightFar {
-    0%     { opacity: 0; -webkit-transform: translate3d(-1500px,0,0);}
+    0%     { opacity: 0; -webkit-transform: translate3d(-400px,0,0);}
     50%   { opacity: .5; -webkit-transform: translate3d(0,0,0); }
-    100%   { opacity: 1; transform: translate3d(0,0,0); }
+    100%   { opacity: 1; -webkit-transform: translate3d(0,0,0); }
 }
 
 @keyframes slideRightFar {
-    0% { opacity: 0; transform: translate3d(-1500px,0,0); }
+    0% { opacity: 0; transform: translate3d(-400px,0,0); }
     50%   { opacity: .5; transform: translate3d(0,0,0); }
     100%   { opacity: 1; transform: translate3d(0,0,0); }
 }
 
 @-webkit-keyframes slideLeftFar {
-    0% { opacity: 0; -webkit-transform: translate3d(1500px,0,0);}
+    0% { opacity: 0; -webkit-transform: translate3d(400px,0,0);}
     50%   { opacity: .5; -webkit-transform: translate3d(0,0,0); }
-    100%   { opacity: 1; transform: translate3d(0,0,0); }
+    100%   { opacity: 1; -webkit-transform: translate3d(0,0,0); }
 }
 
 @keyframes slideLeftFar {
-    0% { opacity: 0; transform: translate3d(1500px,0,0); }
+    0% { opacity: 0; transform: translate3d(400px,0,0); }
     50%   { opacity: .5; transform: translate3d(0,0,0); }
     100%   { opacity: 1; transform: translate3d(0,0,0); }
 }

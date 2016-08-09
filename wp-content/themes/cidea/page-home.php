@@ -141,8 +141,25 @@
 	<div class="half-circle-cover"></div>
 </div>
 
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
-	<div class="left-section-container" style="background-image: url(<?php echo get_field('left_section')['url']; ?>);">
+<div class="col-xs-12 remove-pad-marg">
+	<div class="right-section-container" style="background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png)">
+		<div class="rightsection-bg-overlay">
+		</div>
+		<div class="centered-container">
+			<div class="centered">
+				<div class="middle-section-title scrollTime" data-animation="slideUpAnimation" data-timeout="500">
+					<?php echo get_field('right_section_title'); ?>
+				</div>
+				<div class="middle-section-paragraph scrollTime" data-animation="slideRightAnimation" data-timeout="900">
+					<?php echo get_field('right_section_paragraph'); ?>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-xs-12 remove-pad-marg">
+		<div class="left-section-container" style="background-image: url(<?php echo get_field('left_section')['url']; ?>);">
 		<div class="gradient-overlay"></div>
 		<div class="centered-container">
 			<div class="centered">
@@ -160,7 +177,7 @@
         				</object>
 					</li>
 					<li class="scrollTime" data-animation="slideUpAnimation" data-timeout="800"><?php echo get_field('how_we_help_point_3'); ?></li>
-					<li class="scrollTime" data-animation="rotateInAnimation" data-timeout="1300">
+					<li class="scrollTime visible-xs" data-animation="rotateInAnimation" data-timeout="1300">
 						<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/svg-logo-swirl-transparent.svg" type="image/svg+xml">
         					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png" />
         				</object>
@@ -176,23 +193,6 @@
 						</div>
 					</div>
 				</a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 remove-pad-marg">
-	<div class="right-section-container" style="background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2016/07/cidea-logo-swirl-svg.png)">
-		<div class="rightsection-bg-overlay">
-		</div>
-		<div class="centered-container">
-			<div class="centered">
-				<div class="middle-section-title scrollTime" data-animation="slideUpAnimation" data-timeout="500">
-					<?php echo get_field('right_section_title'); ?>
-				</div>
-				<div class="middle-section-paragraph scrollTime" data-animation="slideRightAnimation" data-timeout="900">
-					<?php echo get_field('right_section_paragraph'); ?>
-				</div>
 			</div>
 		</div>
 	</div>
