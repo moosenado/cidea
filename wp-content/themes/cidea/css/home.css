@@ -14,7 +14,7 @@
 
 .top-banner-container svg, .top-banner-container img {
 	height: 45%;
-	width : 65%;
+	width : 70%;
 }
 
 .half-circle-cover {
@@ -54,7 +54,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: #fff;
+	background-color: #eefcf4;
 	opacity: .9;
 }
 
@@ -250,18 +250,12 @@
 
 	.gradient-overlay {
 		position: absolute;
-		top: 0;
+		bottom: 0;
 		left: 0;
 		right: 0;
-		bottom: 0;
-		background: rgba(255,255,255,0);
-		background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
-		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,1)));
-		background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
-		background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
-		background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
-		background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+		top: 0;
+		background-color: #fff;
+		opacity: .4;
 	}
 
 	.right-section-container {
@@ -274,24 +268,31 @@
 
 	.how-we-help-ul {
 		margin-bottom: 6%;
+		font-size: 38px;
 	}
 
 	.how-we-help-ul li {
 		display: inline-block;
-		padding: 0 4px;
+		padding: 0 8px;
 	}
 
 	.how-we-help-ul li:nth-child(even) {
 		margin: 0;
 		font-size: 0;
+		vertical-align: middle;
 	}
 
 	.middle-section-paragraph {
 		width: 75%;
 	}
 
+	.middle-section-paragraph p {
+		width: 70%;
+	}
+
 	.middle-section-title {
 		width: 75%;
+		font-size: 38px;
 	}
 
 	.logo-c {
@@ -337,11 +338,11 @@
 
 @media all and ( min-width: 1600px )  {
 	.how-we-help-ul {
-		font-size: 42px;
+		font-size: 44px;
 	}
 
 	.middle-section-title {
-		font-size: 36px;
+		font-size: 48px;
 	}
 
 	.middle-section-paragraph {

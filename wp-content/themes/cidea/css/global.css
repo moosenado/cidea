@@ -366,6 +366,7 @@ input[type=text] {
 	opacity: 0;
 	transition: all 1s ease-in-out;
 	-webkit-transition: all 1s ease-in-out;
+	border: 1px solid #c9eaea;
 }
 
 .mobile-menu-title {
