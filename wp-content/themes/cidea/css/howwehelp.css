@@ -80,7 +80,11 @@
 .business-case-cont-img {
 	position: relative;
 	padding-top: 50%;
-	opacity: 0;
+	opacity: .5;
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+	-webkit-transition: all 1.5s ease-in-out;
+	transition: all 1.5s ease-in-out;
 }
 
 .bg {

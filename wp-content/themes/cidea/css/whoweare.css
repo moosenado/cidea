@@ -107,8 +107,8 @@
 
 .wwa-client-list-cont ul li img {
 	width: 165px;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
 	opacity: .5;
 	transition: 1s all ease-in-out;
 	-webkit-transition: .7s all ease-in-out;

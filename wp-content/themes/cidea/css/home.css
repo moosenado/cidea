@@ -263,7 +263,7 @@
 
 	.how-we-help-ul {
 		margin-bottom: 6%;
-		font-size: 38px;
+		font-size: 42px;
 	}
 
 	.how-we-help-ul li {
@@ -341,7 +341,7 @@
 
 @media all and ( min-width: 1600px )  {
 	.how-we-help-ul {
-		font-size: 44px;
+		font-size: 52px;
 	}
 
 	.middle-section-title {
