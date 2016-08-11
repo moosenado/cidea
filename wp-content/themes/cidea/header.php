@@ -2,8 +2,8 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Delivering strategies that help your business sell, manage, market and grow">
-	<meta name="keywords" content="Cidea, Guelph, Business, Business Growth">
+	<meta name="description" content="Cidea simplifies business growth through customer-centric , scalable strategies that help businesses market, manage and sell.">
+	<meta name="keywords" content="Growth Strategy, Marketing, Management, Lead Generation, Relationship Management">
 	<meta name="author" content="Cidea">
 	<meta name="theme-color" content="#4bc3c4">
 	<title>Cidea | <?php the_title(); ?></title>

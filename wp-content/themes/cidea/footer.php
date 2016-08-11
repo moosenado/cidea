@@ -31,6 +31,11 @@ $style = ($post_slug == 'how-we-help' || $post_slug == 'who-we-are' ) ? 're-posi
         		<div class="social-container">
         			<ul>
         				<li>
+        					<a href="<?php echo get_option('linkedin');?>">
+	        					<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/Linkedin_circle.png" style="margin-top: -58px;" />
+        					</a>
+        				</li>
+        				<li>
         					<a href="<?php echo get_option('facebook');?>" class="svg">
 	        					<object data="<?php echo home_url(); ?>/wp-content/uploads/2016/07/facebook_icon.svg" type="image/svg+xml">
 	        						<img src="<?php echo home_url(); ?>/wp-content/uploads/2016/07/facebook_icon.png" />

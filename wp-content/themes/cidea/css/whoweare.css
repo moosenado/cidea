@@ -102,21 +102,22 @@
 .wwa-client-list-cont ul li {
 	display: block;
 	list-style: none;
-	padding: 10px;
+	padding: 20px;
 }
 
 .wwa-client-list-cont ul li img {
 	width: 165px;
-	-webkit-filter: grayscale(1);
-	filter: grayscale(1);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(1); /* Chrome 19+ & Safari 6+ */
 	opacity: .5;
-	transition: 1s all ease-in-out;
-	-webkit-transition: .7s all ease-in-out;
+	transition: 1s all ease-out;
+	-webkit-transition: 1s all ease-out;
 }
 
 .wwa-client-list-cont ul li img:hover {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+	filter: none;
+  	-webkit-filter: grayscale(0);
 	opacity: .8;
 }
 
@@ -143,6 +144,11 @@
 	.wwa-top-content-cont p {
 		width: 50%;
 		font-size: 16px;
+	}
+
+	.wwa-client-list-cont ul {
+    	max-width: 1200px;
+    	margin: 0 auto;
 	}
 
 	.wwa-client-list-cont ul li {

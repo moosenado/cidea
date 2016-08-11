@@ -65,6 +65,9 @@ if (!function_exists('add_global_custom_options'))
 	            <p><strong>Email:</strong><br />
 	                <input type="text" name="email" size="45" value="<?php echo get_option('email'); ?>" />
 	            </p>
+	            <p><strong>LinkedIn URL:</strong><br />
+	                <input type="text" name="linkedin" size="45" value="<?php echo get_option('linkedin'); ?>" />
+	            </p>
 	          	<p><strong>Facebook URL:</strong><br />
 	                <input type="text" name="facebook" size="45" value="<?php echo get_option('facebook'); ?>" />
 	            </p>
@@ -76,7 +79,7 @@ if (!function_exists('add_global_custom_options'))
 	            </p>
 	            <p><input type="submit" name="Submit" value="Save" /></p>
 	            <input type="hidden" name="action" value="update" />
-	            <input type="hidden" name="page_options" value="address,city,postalcode,phonenumber,email,facebook,twitter,instagram" />
+	            <input type="hidden" name="page_options" value="address,city,postalcode,phonenumber,email,linkedin,facebook,twitter,instagram" />
 	        </form>
 	    </div>
 	<?php
