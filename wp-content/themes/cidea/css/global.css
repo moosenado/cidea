@@ -608,25 +608,25 @@ input[type=text] {
 
 @-webkit-keyframes slideRightFar {
     0%     { opacity: 0; -webkit-transform: translate3d(-50px,0,0);}
-    50%   { opacity: .7; -webkit-transform: translate3d(0,0,0); }
+    50%   { opacity: .5; -webkit-transform: translate3d(0,0,0); }
     100%   { opacity: 1; -webkit-transform: translate3d(0,0,0); }
 }
 
 @keyframes slideRightFar {
     0% { opacity: 0; transform: translate3d(-50px,0,0); }
-    50%   { opacity: .7; transform: translate3d(0,0,0); }
+    50%   { opacity: .5; transform: translate3d(0,0,0); }
     100%   { opacity: 1; transform: translate3d(0,0,0); }
 }
 
 @-webkit-keyframes slideLeftFar {
     0% { opacity: 0; -webkit-transform: translate3d(50px,0,0);}
-    50%   { opacity: .5; -webkit-transform: translate3d(0,0,0); }
+    50%   { opacity: .8; -webkit-transform: translate3d(0,0,0); }
     100%   { opacity: 1; -webkit-transform: translate3d(0,0,0); }
 }
 
 @keyframes slideLeftFar {
     0% { opacity: 0; transform: translate3d(50px,0,0); }
-    50%   { opacity: .5; transform: translate3d(0,0,0); }
+    50%   { opacity: .8; transform: translate3d(0,0,0); }
     100%   { opacity: 1; transform: translate3d(0,0,0); }
 }
 
